@@ -1,0 +1,268 @@
+Return-Path: <support@moengage.zendesk.com>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id wAVgKtff41srUAAA05H+Cg
+	for <wjchong@koofamilies.com>; Thu, 08 Nov 2018 00:03:51 -0700
+Return-path: <support@moengage.zendesk.com>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Thu, 08 Nov 2018 00:03:51 -0700
+Received: from out3.pod4.sac1.zdsys.com ([192.161.146.70]:49456)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <support@moengage.zendesk.com>)
+	id 1gKeLs-0005Jl-D7
+	for wjchong@koofamilies.com; Thu, 08 Nov 2018 00:03:51 -0700
+Received: from out1.pod20.usw2.zdsys.com (unknown [10.219.79.155])
+	by out3.pod4.sac1.zdsys.com (Postfix) with ESMTP id 5BD7C22A35B4
+	for <wjchong@koofamilies.com>; Thu,  8 Nov 2018 07:02:59 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by out1.pod20.usw2.zdsys.com (Postfix) with ESMTP id 44B6D8000089
+	for <wjchong@koofamilies.com>; Thu,  8 Nov 2018 07:02:59 +0000 (UTC)
+Auto-Submitted: auto-generated
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5be3dfa2ca75a_57fc3fafd58bcf1c1277c";
+ charset=utf-8
+Date: Thu, 08 Nov 2018 07:02:58 +0000
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk1; t=1541660578;
+ bh=5ltJnBhCqNqA/BGonFh6hgweFkDsFmK7p2bLVVdyNKo=;
+ h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version:content-type:content-transfer-encoding;
+ b=GW6t9d681bjrtP1IGv+OMtH+/rSPTxdXyu2iO5/RnQQEr4C4AbNCBRWS5rw32/I2cExfs2r1ghcGUuBdOKjAjyizMYOO0L8L+c4PuiOtQQQXZ1RcZcDy0s6MqL+zDA802RckwoK+91vH3YQ+SzFY/F0L5OhV0fkKDzpl1g0yV+I=
+From: MoEngage Inc <support@moengage.zendesk.com>
+In-Reply-To: <R5RQ4KPLQG@zendesk.com>
+ <R5RQ4KPLQG_5bdfe5b19112b_11a73f9954acb9584121b_sprut@zendesk.com>
+Message-Id:
+ <R5RQ4KPLQG_5be3dfa2956da_57fc3fafd58bcf1c1276ce_sprut@zendesk.com>
+Mime-Version: 1.0
+Received: from zendesk.com (unknown [10.219.92.97]) by
+ out1.pod20.usw2.zdsys.com (Postfix) with ESMTP id CFF738000087 for
+ <wjchong@koofamilies.com>; Thu,  8 Nov 2018 07:02:58 +0000 (UTC)
+Reply-To: MoEngage Inc <support+id15486@moengage.zendesk.com>
+Subject: [MoEngage Inc.] Pending request: How is the application of push
+ noticefication on m...
+To: Woi joon <wjchong@koofamilies.com>
+X-Auto-Response-Suppress: All
+X-Delivery-Context: event-id-470237709572
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 80f508b
+X-Zendesk-Message-Id:
+ <R5RQ4KPLQG_5be3dfa2956da_57fc3fafd58bcf1c1276ce_sprut@zendesk.com>
+X-Spam-Status: No, score=-8.0
+X-Spam-Score: -79
+X-Spam-Bar: --------
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  ##- Please type your reply above this line -## This is an
+   email to remind you that your request (#15486) is pending and awaits your
+   feedback. [...] 
+ 
+ Content analysis details:   (-8.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: gravatar.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: gravatar.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL Match
+X-Spam-Flag: NO
+
+
+----==_mimepart_5be3dfa2ca75a_57fc3fafd58bcf1c1277c
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##- Please type your reply above this line -##
+
+This is an email to remind you that your request (#15486) is pending and =
+awaits your feedback.
+
+----------------------------------------------
+
+Mahati Vanka, Nov 5, 12:09 IST
+
+Hi Woi,
+
+Thanks for writing in.
+
+Could you please help me understand the issue you are currently facing?
+
+We did receive a couple of queries from your end which we have already an=
+swered.
+
+Looking forward to assisting you with your concerns.
+
+Thanks,
+
+MoEngage Success Team
+
+Please visit our Help Center (http://help.moengage.com/) for any question=
+s. If you can't find what you need, please email us anytime at support@mo=
+engage.com
+
+----------------------------------------------
+
+Woi joon, Nov 3, 06:56 IST
+
+How is the application of push noticefication on my website https://www.k=
+oofamilies.com? Did my web developer contact you to fix the trouble?
+
+------------------
+Submitted from: https://app.moengage.com/v3/#/latestActivity
+
+--------------------------------
+This email is a service from MoEngage Inc..
+
+
+
+
+
+
+
+
+
+[R5RQ4K-PLQG]=
+
+----==_mimepart_5be3dfa2ca75a_57fc3fafd58bcf1c1277c
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+</head>
+<body lang=3D'en-us' style=3D"width: 100%!important; margin: 0; padding: =
+0;">
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this =
+line -##</div>
+    <p>This is an email to remind you that your request (<a target=3D"_bl=
+ank" href=3D"https://help.moengage.com/hc/requests/15486">#15486</a>) is =
+pending and awaits your feedback.</p><p></p><div style=3D"margin-top: 25p=
+x" data-version=3D"2"><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" role=3D"presentation">  <tr>    <td width=3D"100%" st=
+yle=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <table wid=
+th=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"tab=
+le-layout:fixed;" role=3D"presentation">        <tr>                     =
+ <td valign=3D"top" style=3D"padding: 0 15px 0 15px; width: 40px;">      =
+        <img width=3D"40" height=3D"40" alt=3D"" style=3D"height: auto; l=
+ine-height: 100%; outline: none; text-decoration: none; -webkit-border-ra=
+dius: 5px; -moz-border-radius: 5px; border-radius: 5px;" src=3D"https://s=
+ecure.gravatar.com/avatar/583a1b2939af3e68aac55d72827442c6?size=3D40&amp;=
+default=3Dhttps%3A%2F%2Fassets.zendesk.com%2Fimages%2F2016%2Fdefault-avat=
+ar-80.png&amp;r=3Dg" />            </td>                    <td width=3D"=
+100%" style=3D"padding: 0; margin: 0;" valign=3D"top">            <p styl=
+e=3D"font-family: 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Ver=
+dana,Tahoma,sans-serif; font-size: 15px; line-height: 18px; margin-bottom=
+: 0; margin-top: 0; padding: 0; color:#1b1d1e;">                         =
+                                           <strong>Mahati Vanka</strong> =
+(MoEngage Inc.)                                                          =
+  </p>            <p style=3D"font-family: 'Lucida Grande','Lucida Sans U=
+nicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-he=
+ight: 25px; margin-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb=
+;">              Nov 5, 12:09 IST            </p>                        =
+            <div class=3D"zd-comment" style=3D"color: #2b2e2f; font-famil=
+y: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif;=
+ font-size: 14px; line-height: 22px; margin: 15px 0">Hi Woi,<br /><br />T=
+hanks for writing in.<br /><br />Could you please help me understand the =
+issue you are currently facing?<br /><br />We did receive a couple of que=
+ries from your end which we have already answered.<br /><br />Looking for=
+ward to assisting you with your concerns.<br /><br />Thanks,<br /><div cl=
+ass=3D"signature"><p style=3D"color: #2b2e2f; font-family: 'Lucida Sans U=
+nicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px;=
+ line-height: 22px; margin: 15px 0" dir=3D"auto">MoEngage Success Team</p=
+><p style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida =
+Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22p=
+x; margin: 15px 0" dir=3D"auto">Please visit our Help Center (<a href=3D"=
+http://help.moengage.com/" rel=3D"noreferrer">http://help.moengage.com/</=
+a>) for any questions. If you can't find what you need, please email us a=
+nytime at <a href=3D"mailto:support@moengage.com" rel=3D"noreferrer">supp=
+ort@moengage.com</a></p></div></div><p>                                  =
+</p></td>        </tr>      </table>    </td>  </tr></table><p></p><table=
+ width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"=
+presentation">  <tr>    <td width=3D"100%" style=3D"padding: 15px 0; bord=
+er-top: 1px dotted #c5c5c5;">      <table width=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"table-layout:fixed;" role=3D"pr=
+esentation">        <tr>                      <td valign=3D"top" style=3D=
+"padding: 0 15px 0 15px; width: 40px;">              <img width=3D"40" he=
+ight=3D"40" alt=3D"" style=3D"height: auto; line-height: 100%; outline: n=
+one; text-decoration: none; -webkit-border-radius: 5px; -moz-border-radiu=
+s: 5px; border-radius: 5px;" src=3D"https://secure.gravatar.com/avatar/1c=
+55a6e98dfc147a8870756e8452dd87?size=3D40&amp;default=3Dhttps%3A%2F%2Fasse=
+ts.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;r=3Dg" />     =
+       </td>                    <td width=3D"100%" style=3D"padding: 0; m=
+argin: 0;" valign=3D"top">            <p style=3D"font-family: 'Lucida Gr=
+ande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; font=
+-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding:=
+ 0; color:#1b1d1e;">                              <strong>Woi joon</stron=
+g>                          </p>            <p style=3D"font-family: 'Luc=
+ida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif=
+; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0;=
+ padding: 0; color:#bbbbbb;">              Nov 3, 06:56 IST            </=
+p>                                    <div class=3D"zd-comment" style=3D"=
+color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tah=
+oma', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15=
+px 0"><p style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lu=
+cida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height=
+: 22px; margin: 15px 0" dir=3D"auto">How is the application of push notic=
+efication on my website <a href=3D"https://www.koofamilies.com" target=3D=
+"_blank" rel=3D"nofollow noreferrer">https://www.koofamilies.com</a>? Did=
+ my web developer contact you to fix the trouble?</p><p style=3D"color: #=
+2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Ve=
+rdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0" di=
+r=3D"auto">------------------<br />Submitted from: <a href=3D"https://app=
+.moengage.com/v3/#/latestActivity" target=3D"_blank" rel=3D"nofollow nore=
+ferrer">https://app.moengage.com/v3/#/latestActivity</a></p></div>       =
+                           </td>        </tr>      </table>    </td>  </t=
+r></table></div>
+    <div style=3D"color: #aaaaaa; margin: 10px 0 14px 0; padding-top: 10p=
+x; border-top: 1px solid #eeeeee;">
+     This email is a service from MoEngage Inc.. Delivered by <a href=3D"=
+https://www.zendesk.com/product/tour/?utm_campaign=3Dtext&amp;utm_content=
+=3DMoEngage+Inc.&amp;utm_medium=3Dpoweredbyzendesk&amp;utm_source=3Demail=
+-notification" style=3D"color: black;" target=3D"_blank">Zendesk</a>
+    </div>
+  </div>
+<span style=3D'color:#FFFFFF' aria-hidden=3D'true'>[R5RQ4K-PLQG]</span></=
+body>
+</html>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage" style=3D"displ=
+ay:none">  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.o=
+rg/ViewAction">    <link itemprop=3D"url" href=3D"https://help.moengage.c=
+om/hc/requests/15486" />    <meta itemprop=3D"name" content=3D"View ticke=
+t"/>  </div></div>=
+
+----==_mimepart_5be3dfa2ca75a_57fc3fafd58bcf1c1277c--

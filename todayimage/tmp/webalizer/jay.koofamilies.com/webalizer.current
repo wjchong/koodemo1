@@ -1,0 +1,164 @@
+# Webalizer V2.23-08 Incremental Data - 11/13/2018 22:03:00
+2018 11 13 22 3 0
+15 11 6 5 3 5 18093 8 6 0
+2 1 7 12 13
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+13 9 16493 4 6 4
+2 2 1600 2 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+7 6 14093 3
+2 1 800 1
+2 1 800 1
+2 1 800 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 800 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 800 1
+0 0 0 0
+0
+0
+0
+11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/1475CADF837876D9D8121A430CF39184.txt
+0 2 0 154 0 0
+/.well-known/pki-validation/3BB1F058613E860283091B2FBF50B3B6.txt
+0 1 0 64 0 0
+/cgi-sys/defaultwebpage.cgi
+0 2 0 13826 1 0
+/INDEX.PHP
+0 1 0 49 0 0
+/
+0 5 0 4000 5 1
+# End Of Table - urls
+# -sites- (monthly)
+106.223.49.176
+0 8 5 15475 3 1542003237
+/
+google-proxy-64-233-173-28.google.com
+0 2 1 800 1 1542000569
+/
+secure.comodo.net
+0 2 2 154 0 0
+-
+s166-62-120-154.secureserver.net
+0 1 1 64 0 0
+-
+probe14.onyphe.io
+0 1 1 800 1 1542146580
+/
+probe12.onyphe.io
+0 1 1 800 1 1542135085
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+probe14.onyphe.io
+0 1 1 800 1 1542146580
+/
+probe12.onyphe.io
+0 1 1 800 1 1542135085
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://jay.koofamilies.com//
+0 3
+- (Direct Request)
+0 10
+http://jay.koofamilies.com/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 7.1.1; SM-C900F Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile 
+0 2
+COMODO DCV
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
+0 2
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-in; Redmi Note 5 Pro Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) V
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

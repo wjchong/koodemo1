@@ -1,0 +1,172 @@
+# Webalizer V2.23-08 Incremental Data - 11/13/2018 23:28:23
+2018 11 13 23 28 23
+60 12 8 5 4 5 12816 14 6 0
+2 1 52 12 13
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+58 10 11174 6 12 4
+2 2 1642 2 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+4 4 282 0
+0 0 0 0
+52 5 10071 11
+2 1 821 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 821 1
+0 0 0 0
+1 1 821 1
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+47
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/AF03B46A3EA681158D40F7C9443ADE26.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/2E6FB95BAF22E4F3203EC24E0718229C.txt
+0 2 0 154 0 0
+/public-profile-merchnat.php
+0 2 0 8214 0 0
+/
+0 6 0 4105 5 0
+/.well-known/pki-validation/30DE5E5EA16406332BA73BEE094CBE1C.txt
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+159.203.81.93
+0 1 0 0 1 1542001574
+-
+106.223.49.176
+0 51 4 10071 1 1542003237
+/
+secure.comodo.net
+0 2 2 154 0 0
+-
+s166-62-120-154.secureserver.net
+0 2 2 128 0 0
+-
+159.203.42.143
+0 1 1 821 1 1542001574
+/
+probe14.onyphe.io
+0 1 1 821 1 1542143857
+/
+probe12.onyphe.io
+0 1 1 821 1 1542151703
+/
+wwwb-app49.us.archive.org
+0 1 1 0 1 1542001574
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+probe14.onyphe.io
+0 1 1 821 1 1542143857
+/
+probe12.onyphe.io
+0 1 1 821 1 1542151703
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 10
+http://member1.koofamilies.com/public-profile-merchnat.php
+0 46
+http://member1.koofamilies.com//
+0 1
+http://member1.koofamilies.com/
+0 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+0 2
+COMODO DCV
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 50
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
+0 2
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-in; Redmi Note 5 Pro Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) V
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

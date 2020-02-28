@@ -1,0 +1,341 @@
+[06-Dec-2016 11:51:39 Etc/GMT] PHP Parse error:  syntax error, unexpected ''mobile'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 249
+[07-Dec-2016 08:29:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 118
+[07-Dec-2016 08:29:48 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 118
+[07-Dec-2016 08:30:14 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 101
+[07-Dec-2016 08:30:51 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 118
+[07-Dec-2016 08:31:18 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 101
+[07-Dec-2016 10:23:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 211
+[07-Dec-2016 10:42:30 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 10:42:30 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 10:42:37 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 10:42:42 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 10:42:43 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 10:42:48 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/verify_success.php on line 101
+[07-Dec-2016 13:04:13 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:07:09 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:07:25 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 352
+[07-Dec-2016 13:07:43 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 354
+[07-Dec-2016 13:07:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 354
+[07-Dec-2016 13:07:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 354
+[07-Dec-2016 13:08:36 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:10:02 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:10:15 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:11:30 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:11:52 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 356
+[07-Dec-2016 13:12:39 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:12:54 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:13:11 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:13:13 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:14:31 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:15:19 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 357
+[07-Dec-2016 13:18:07 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 358
+[07-Dec-2016 13:28:07 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getdata() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 381
+[07-Dec-2016 13:28:22 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::get_data() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 381
+[07-Dec-2016 14:03:11 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getdata() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 381
+[14-Dec-2016 14:11:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::update_announcements() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 866
+[14-Dec-2016 14:11:54 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::update_announcements() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 866
+[15-Dec-2016 12:00:40 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/template/header.php on line 1
+[15-Dec-2016 13:48:26 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::update_announcements() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 986
+[15-Dec-2016 13:57:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1004
+[15-Dec-2016 13:58:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1004
+[15-Dec-2016 13:58:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1004
+[15-Dec-2016 13:59:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1004
+[15-Dec-2016 14:41:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:42:28 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:42:58 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:43:11 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:43:40 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:45:10 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:46:33 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:46:55 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:49:03 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:49:52 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[15-Dec-2016 14:52:48 Etc/GMT] PHP Fatal error:  Call to undefined function redirect() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 63
+[15-Dec-2016 14:53:11 Etc/GMT] PHP Fatal error:  Call to undefined function redirect() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 63
+[16-Dec-2016 05:21:44 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 1
+[16-Dec-2016 06:15:36 Etc/GMT] PHP Fatal error:  Call to a member function get_new_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 30
+[16-Dec-2016 06:16:02 Etc/GMT] PHP Fatal error:  Call to undefined function includes() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 2
+[16-Dec-2016 06:17:00 Etc/GMT] PHP Fatal error:  Call to a member function get_new_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 30
+[16-Dec-2016 06:19:40 Etc/GMT] PHP Fatal error:  Call to a member function get_new_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 30
+[16-Dec-2016 06:22:00 Etc/GMT] PHP Fatal error:  Call to a member function get_new_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 30
+[16-Dec-2016 06:22:08 Etc/GMT] PHP Fatal error:  Call to a member function get_new_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 30
+[16-Dec-2016 06:29:56 Etc/GMT] PHP Fatal error:  Call to a member function get_reviews() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 55
+[16-Dec-2016 06:30:42 Etc/GMT] PHP Fatal error:  Call to a member function get_all_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 139
+[16-Dec-2016 06:42:32 Etc/GMT] PHP Fatal error:  Call to a member function get_all_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 139
+[16-Dec-2016 06:42:46 Etc/GMT] PHP Fatal error:  Call to a member function get_all_order() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 139
+[22-Dec-2016 05:47:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:47:39 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:09 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:14 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:46 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:48:58 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:49:00 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:49:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[22-Dec-2016 05:49:41 Etc/GMT] PHP Parse error:  syntax error, unexpected ''time'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 424
+[31-Dec-2016 06:47:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1460
+[31-Dec-2016 06:47:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1460
+[31-Dec-2016 10:10:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1565
+[31-Dec-2016 10:10:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1565
+[31-Dec-2016 10:10:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1565
+[31-Dec-2016 10:10:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1565
+[31-Dec-2016 10:11:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1565
+[09-Jan-2017 08:29:35 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::unset_delete() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 946
+[09-Jan-2017 08:29:36 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::unset_delete() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 946
+[09-Jan-2017 08:29:37 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::unset_delete() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 946
+[09-Jan-2017 12:58:27 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 955
+[10-Jan-2017 09:36:20 Etc/GMT] PHP Fatal error:  Call to a member function get_new_users() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 78
+[10-Jan-2017 09:55:56 Etc/GMT] PHP Fatal error:  Call to undefined function strupper() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/admin_header.php on line 37
+[10-Jan-2017 09:55:59 Etc/GMT] PHP Fatal error:  Call to undefined function strupper() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/admin_header.php on line 37
+[16-Jan-2017 07:14:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::apartmentAdmin() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 446
+[16-Jan-2017 07:23:29 Etc/GMT] PHP Fatal error:  Call to a member function label() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 475
+[16-Jan-2017 07:23:31 Etc/GMT] PHP Fatal error:  Call to a member function label() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 475
+[16-Jan-2017 10:33:21 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1752
+[16-Jan-2017 10:33:55 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1752
+[16-Jan-2017 10:34:14 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1752
+[16-Jan-2017 10:34:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1752
+[16-Jan-2017 10:34:27 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1752
+[17-Jan-2017 08:01:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '!' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1822
+[19-Jan-2017 09:36:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:36:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:37:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:37:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:37:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 09:37:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:04:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:04:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:05:35 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:05:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:06:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:06:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:06:34 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:07:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:07:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:08:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:09:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:09:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:09:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:12:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:12:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:12:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[19-Jan-2017 10:18:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1354
+[20-Jan-2017 06:19:49 Etc/GMT] PHP Fatal error:  Call to a member function segment() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 841
+[20-Jan-2017 06:19:51 Etc/GMT] PHP Fatal error:  Call to a member function segment() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 841
+[20-Jan-2017 06:20:23 Etc/GMT] PHP Fatal error:  Call to a member function segment() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 841
+[23-Jan-2017 06:17:00 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ppt_discussion' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 2003
+[23-Jan-2017 06:17:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ppt_discussion' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 2003
+[23-Jan-2017 06:17:18 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ppt_discussion' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 2003
+[23-Jan-2017 06:17:36 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ppt_discussion' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 2003
+[27-Jan-2017 06:59:29 Etc/GMT] PHP Parse error:  syntax error, unexpected ''purpose'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1914
+[27-Jan-2017 06:59:29 Etc/GMT] PHP Parse error:  syntax error, unexpected ''purpose'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/webservice.php on line 1914
+[20-Feb-2017 09:57:06 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::announcementList() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 597
+[20-Feb-2017 11:07:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::dashboard() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 46
+[20-Feb-2017 11:07:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::dashboard() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 46
+[20-Feb-2017 11:08:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::dashboard() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 46
+[20-Feb-2017 11:29:54 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 722
+[20-Feb-2017 11:30:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 713
+[20-Feb-2017 11:33:36 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:33:51 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:38:19 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 11:38:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 11:39:00 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 11:39:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 11:39:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 11:40:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:40:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:40:57 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:40:58 Etc/GMT] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:42:11 Etc/GMT] PHP Parse error:  syntax error, unexpected 'FROM' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:42:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'user”' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:42:44 Etc/GMT] PHP Parse error:  syntax error, unexpected 'ppt_users”' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 725
+[20-Feb-2017 11:56:26 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:32 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:48 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:50 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:51 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:52 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:52 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:56:52 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:57:21 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:57:32 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:57:34 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:57:51 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:58:05 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 11:58:25 Etc/GMT] PHP Fatal error:  Class 'Xcrud' not found in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 709
+[20-Feb-2017 12:59:32 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 729
+[20-Feb-2017 12:59:50 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 729
+[20-Feb-2017 12:59:52 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 729
+[20-Feb-2017 13:00:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 722
+[20-Feb-2017 13:03:34 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 722
+[20-Feb-2017 13:07:12 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 723
+[20-Feb-2017 13:08:40 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 724
+[20-Feb-2017 13:10:59 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 723
+[20-Feb-2017 13:11:22 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 723
+[21-Feb-2017 05:08:02 Etc/GMT] PHP Fatal error:  Call to undefined function num_rows() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/models/admin/admin_common_model.php on line 353
+[21-Feb-2017 05:08:06 Etc/GMT] PHP Fatal error:  Call to undefined function num_rows() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/models/admin/admin_common_model.php on line 353
+[24-Feb-2017 10:24:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/admin_header.php on line 42
+[24-Feb-2017 10:24:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/admin_header.php on line 42
+[25-Feb-2017 05:49:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 8
+[25-Feb-2017 06:03:40 Etc/GMT] PHP Fatal error:  Call to a member function get() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 13
+[25-Feb-2017 06:15:32 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 103
+[25-Feb-2017 06:19:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '3' (T_LNUMBER), expecting ',' or ';' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 77
+[25-Feb-2017 07:06:05 Etc/GMT] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::order_by() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 14
+[25-Feb-2017 09:28:57 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 165
+[25-Feb-2017 09:29:00 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 165
+[25-Feb-2017 09:29:16 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 165
+[25-Feb-2017 09:29:19 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 165
+[25-Feb-2017 09:31:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 94
+[25-Feb-2017 09:31:47 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 94
+[25-Feb-2017 09:32:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/approveRequest.php on line 94
+[25-Feb-2017 10:05:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Admin::confirmUser() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 830
+[25-Feb-2017 10:10:53 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::where_in() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 817
+[25-Feb-2017 10:14:49 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud::query() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 817
+[25-Feb-2017 10:15:47 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::unset_title() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 807
+[25-Feb-2017 10:16:08 Etc/GMT] PHP Fatal error:  Call to a member function query() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 817
+[25-Feb-2017 10:16:46 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::unset_add() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 821
+[25-Feb-2017 10:17:01 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::label() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 825
+[25-Feb-2017 10:17:24 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::render() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 830
+[25-Feb-2017 10:19:16 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::render() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 833
+[25-Feb-2017 10:20:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '"select * from ppt_property"' (T_CONSTANT_ENCAPSED_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 821
+[25-Feb-2017 10:20:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '"select * from ppt_property"' (T_CONSTANT_ENCAPSED_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 821
+[25-Feb-2017 10:21:05 Etc/GMT] PHP Fatal error:  Call to undefined method Xcrud_db::render() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 833
+[25-Feb-2017 11:17:54 Etc/GMT] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 34
+[25-Feb-2017 11:17:59 Etc/GMT] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/dashboard.php on line 34
+[03-Mar-2017 06:13:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'hello' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 460
+[03-Mar-2017 06:39:03 Etc/GMT] PHP Fatal error:  Call to a member function add() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 340
+[03-Mar-2017 08:10:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/index.php on line 46
+[03-Mar-2017 09:43:49 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:45:03 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:47:18 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:47:58 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:48:22 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:52:40 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 93
+[03-Mar-2017 09:56:27 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 94
+[03-Mar-2017 12:00:07 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/facility_approve.php on line 16
+[03-Mar-2017 12:38:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '$get_data' (T_VARIABLE), expecting '(' in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/views/admin/facility_approve.php on line 30
+[03-Mar-2017 12:54:06 Etc/GMT] PHP Fatal error:  Call to undefined method CI_Loader::property() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 28
+[03-Mar-2017 12:54:08 Etc/GMT] PHP Fatal error:  Call to undefined method CI_Loader::property() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 28
+[03-Mar-2017 12:54:11 Etc/GMT] PHP Fatal error:  Call to undefined method CI_Loader::property() in /home/technz1m/public_html/WORKSPACEVIJAY/property/application/controllers/admin.php on line 28
+[06-Mar-2017 07:24:54 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/technorizen2/public_html/vijay/doctor/footer.php on line 13
+[06-Mar-2017 09:59:03 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 66
+[06-Mar-2017 10:08:47 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 10:09:23 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 10:11:40 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 10:13:00 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 10:13:34 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 10:13:58 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 53
+[06-Mar-2017 11:22:41 UTC] PHP Fatal error:  Cannot redeclare Webservice::get_hypertension_list() in /home/technorizen2/public_html/vijay/doctor/application/controllers/webservice.php on line 213
+[06-Mar-2017 11:37:38 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/technorizen2/public_html/vijay/doctor/footer.php on line 13
+[14-Jun-2017 07:42:35 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[14-Jun-2017 09:19:42 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:21:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:22:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:22:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:25:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:25:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:25:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:25:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:25:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[14-Jun-2017 09:26:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/models/admin/authentication_model.php on line 21
+[15-Jun-2017 05:18:19 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[15-Jun-2017 05:18:25 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[15-Jun-2017 05:22:16 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[15-Jun-2017 05:23:48 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 25
+[15-Jun-2017 05:26:21 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[15-Jun-2017 05:26:29 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/technz1m/public_html/yashtechsolutions.com/vijay/QuikMoves/application/views/include/header.php on line 23
+[16-Jun-2017 11:34:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:34:06 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:34:32 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:35:04 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:35:40 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:35:58 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[16-Jun-2017 11:36:03 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 373
+[22-Jun-2017 07:42:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 698
+[24-Jun-2017 06:23:00 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 728
+[24-Jun-2017 06:28:03 Etc/GMT] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 725
+[29-Jun-2017 10:37:21 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1358
+[29-Jun-2017 10:42:44 Etc/GMT] PHP Fatal error:  Call to a member function get_where() on a non-object in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1307
+[29-Jun-2017 10:46:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '$ressult' (T_VARIABLE) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1267
+[29-Jun-2017 11:28:57 Etc/GMT] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1267
+[29-Jun-2017 11:59:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1280
+[01-Jul-2017 07:15:03 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1530
+[01-Jul-2017 07:15:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1530
+[01-Jul-2017 07:15:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1530
+[01-Jul-2017 09:37:52 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1080
+[01-Jul-2017 09:37:54 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1080
+[01-Jul-2017 14:02:43 Etc/GMT] PHP Parse error:  syntax error, unexpected 'amount' (T_STRING) in /home/technz1m/public_html/WORKSPACEVIJAY/SNIFF/application/controllers/webservice.php on line 1661
+[16-Aug-2017 10:37:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/mobilah8/public_html/PLENDER/application/controllers/webservice.php on line 182
+[16-Aug-2017 10:38:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/mobilah8/public_html/PLENDER/application/controllers/webservice.php on line 182
+[18-Aug-2017 11:51:28 Etc/GMT] PHP Parse error:  syntax error, unexpected 'email' (T_STRING), expecting ',' or ';' in /home/mobilah8/public_html/PLANNENDER/application/controllers/webservice.php on line 25
+[18-Aug-2017 11:51:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'email' (T_STRING), expecting ',' or ';' in /home/mobilah8/public_html/PLANNENDER/application/controllers/webservice.php on line 25
+[22-Aug-2017 10:50:04 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/mobilah8/public_html/PLANNENDER/application/controllers/webservice.php on line 435
+[22-Aug-2017 10:50:35 Etc/GMT] PHP Fatal error:  Call to undefined method Webservice_model::getwhere() in /home/mobilah8/public_html/PLANNENDER/application/controllers/webservice.php on line 435
+[16-Sep-2017 07:57:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 703
+[16-Sep-2017 07:58:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 703
+[16-Sep-2017 08:09:09 Etc/GMT] PHP Fatal error:  Call to undefined function print_() in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 616
+[16-Sep-2017 08:09:12 Etc/GMT] PHP Fatal error:  Call to undefined function print_() in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 616
+[16-Sep-2017 08:17:57 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 648
+[16-Sep-2017 08:17:58 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 648
+[16-Sep-2017 10:11:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 721
+[16-Sep-2017 10:12:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 721
+[16-Sep-2017 10:12:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 721
+[16-Sep-2017 10:12:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 713
+[16-Sep-2017 10:13:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 713
+[16-Sep-2017 10:13:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 721
+[16-Sep-2017 11:41:32 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 763
+[16-Sep-2017 11:43:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 779
+[16-Sep-2017 11:43:40 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 779
+[16-Sep-2017 11:44:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 781
+[16-Sep-2017 11:44:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 781
+[23-Oct-2017 07:10:30 Etc/GMT] PHP Fatal error:  Call to undefined function print_t() in /home/mobilah8/public_html/webappsol.biz/Delex/application/controllers/webservice.php on line 680
+[18-Nov-2017 07:29:10 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 135
+[18-Nov-2017 07:32:33 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 135
+[18-Nov-2017 07:32:34 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 135
+[18-Nov-2017 07:35:34 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 136
+[18-Nov-2017 07:36:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 136
+[18-Nov-2017 07:37:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 136
+[18-Nov-2017 07:59:36 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:02:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:03:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:03:32 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:05:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:05:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:06:55 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:06:58 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:07:40 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:07:44 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:08:01 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:08:05 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:08:07 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:08:20 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:09:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:09:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:10:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:12:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:12:04 Etc/GMT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 121
+[18-Nov-2017 08:12:35 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:12:37 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:12:56 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:13:30 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:13:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:14:29 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:14:30 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:14:56 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:14:57 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:15:12 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:15:30 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:15:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::user_update() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 460
+[18-Nov-2017 08:20:41 Etc/GMT] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 137
+[18-Nov-2017 09:45:26 Etc/GMT] PHP Parse error:  syntax error, unexpected 'users' (T_STRING) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 203
+[23-Nov-2017 12:00:16 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::get_event() in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 2248
+[14-Dec-2017 09:25:55 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 1133
+[14-Dec-2017 09:26:11 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 1133
+[14-Dec-2017 09:26:12 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/mobilah8/public_html/SocialRyde/application/controllers/webservice.php on line 1133
+[02-Oct-2018 05:04:18 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice::get_driver_list_nearbuy() in /home/homco8tw/public_html/EZLoading/application/controllers/webservice.php on line 5517

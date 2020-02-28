@@ -1,0 +1,85 @@
+Return-Path: <01020166ed3260a4-567ad59d-4b4b-4fc7-83b9-488fe5469d41-000000@eu-west-1.amazonses.com>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id eHAdNnWc4lsNAgAA05H+Cg
+	for <wjchong@koofamilies.com>; Wed, 07 Nov 2018 01:04:05 -0700
+Return-path: <01020166ed3260a4-567ad59d-4b4b-4fc7-83b9-488fe5469d41-000000@eu-west-1.amazonses.com>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Wed, 07 Nov 2018 01:04:05 -0700
+Received: from a51-5.smtp-out.eu-west-1.amazonses.com ([54.240.51.5]:48692)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <01020166ed3260a4-567ad59d-4b4b-4fc7-83b9-488fe5469d41-000000@eu-west-1.amazonses.com>)
+	id 1gKIod-00007z-P1
+	for wjchong@koofamilies.com; Wed, 07 Nov 2018 01:04:05 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=3csmndpgots2ub4tuzxln2pqvcqusuzs; d=moengage.com; t=1541577793;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=6GD6+7pLq2PxDO2omArUdWPlJHlL4vzvl12WCCZWAUw=;
+	b=HUwyV8WffwY4f6GBQpgh7pcWLi6T3R6aYf6i1xNknXeuAYnkXMUbwb5n7wHWvoA0
+	scZuRGFKKci5V2KDWSYbsjuZ2nAvzkv4xhN+C5DB8FxzcS7lTmzTwneVTXUkkQo6vPV
+	1ttsBeolJ+9ZzWWDB9ULbxpVSqtGRQUtCQmHBj/s=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1541577793;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=6GD6+7pLq2PxDO2omArUdWPlJHlL4vzvl12WCCZWAUw=;
+	b=BOm37tzkNs3onxRoCy9r3+Mz5FH/DCdPCXE5TS9w/OdEZpriWE3AZOjreiqdmhH/
+	pSDfboQ/ClfgybDkhRnCqyqGRaFDF4TBrVrAnuAdsZFPE+AVJcLwxdydg1F4asRxGML
+	4mxyER37DBxhcvK8XB9IqrWyQeaB4ge7xVra5+b0=
+From: Moengage Alerts <alerts@moengage.com>
+Reply-To: support@moengage.com
+To: wjchong@koofamilies.com
+Subject: Account access request for MoEngage Account for
+ Https://www.koofamilies.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_108850_1559218422.1541577793702"
+Message-ID: <01020166ed3260a4-567ad59d-4b4b-4fc7-83b9-488fe5469d41-000000@eu-west-1.amazonses.com>
+Date: Wed, 7 Nov 2018 08:03:13 +0000
+X-SES-Outgoing: 2018.11.07-54.240.51.5
+Feedback-ID: 1.eu-west-1.kQeScnkoGfiBk67j2nGxEqqN2hopXkGrDhPs+vA5tOU=:AmazonSES
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  click4mayank is requesting access to MoEngage Account for
+   Https://www.koofamilies.com. You can go to Team Management page on the dashboard
+    to give account access. In case you are facing any issues, yo
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.com]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+------=_Part_108850_1559218422.1541577793702
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+ 
+------=_Part_108850_1559218422.1541577793702
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html><html> <head> <title></title> </head> <body> <p>click4mayank  is requesting access to MoEngage Account for Https://www.koofamilies.com.&nbsp;</p><p>You can go to <a href="http://app.moengage.com/v3/#/userManagement" style="color:inherit;text-decoration:none;" target="_blank">Team Management page</a> on the dashboard to give account access.&nbsp;</p><p>In case you are facing any issues, you can always reach out to our support team at support@moengage.com&nbsp;</p><p>Team MoEngage</p></body></html>
+------=_Part_108850_1559218422.1541577793702--

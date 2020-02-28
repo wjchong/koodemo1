@@ -1,0 +1,166 @@
+Return-Path: <noreply@mudah.my>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id QDKqM/1k6lvVDQAA05H+Cg
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 05:45:34 +0000
+Return-path: <noreply@mudah.my>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Mon, 12 Nov 2018 22:45:34 -0700
+Received: from m239.mudah.my ([103.10.41.239]:33182)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <noreply@mudah.my>)
+	id 1gMRVs-0000tp-Vk
+	for wjchong@koofamilies.com; Mon, 12 Nov 2018 22:45:33 -0700
+Received: from m119.mudah.my (m119 [10.0.0.119])
+	by m239.mudah.my (Postfix) with ESMTP id D3CD72022B52
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 13:44:42 +0800 (+08)
+DKIM-Filter: OpenDKIM Filter v2.11.0 m239.mudah.my D3CD72022B52
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mudah.my; s=default;
+	t=1542087882; bh=AaPkewuc8IDN/n3JprXdic/pocB/kZhm90+iSQ00YpE=;
+	h=From:Subject:To:Date:From;
+	b=CcglqgYw1xi5SSiiKaZs+AFDnYB4QFrauw22YJwM1hhs/8mSIuw95GlKQjM0q+K/l
+	 Xe+p6bVfn5wVkkn+DoDssGkNie8YSFDD56Fug3IYheLHj/UxeiJfBeQR3E5wa5wlfj
+	 QGxYt31JI5ccFtaoBXOqS3zt1nTLor0C8uz5QRuc=
+Received: by m119.mudah.my (Postfix, from userid 503)
+	id D2A07142C8; Tue, 13 Nov 2018 13:44:42 +0800 (MYT)
+From: =?UTF-8?Q?Mudah.my?= <noreply@mudah.my>
+Subject: Mudah.my: Thank you for your item!
+To: <wjchong@koofamilies.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20181113054442.D2A07142C8@m119.mudah.my>
+Date: Tue, 13 Nov 2018 13:44:42 +0800 (MYT)
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Congrats, your ad is accepted! Click here to see your ad:
+   https://www.mudah.my/vi/70703120.htm Want your ad to be seen by more people?
+    Share it on Facebook now. http://www.facebook.com/sharer.php?u=https://www.mudah.my/2.5+Storey+bungalow+house-70703120.htm
+    
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: koofamilies.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: koofamilies.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+X-Spam-Flag: NO
+
+Congrats, your ad is accepted!
+
+Click here to see your ad: https://www.mudah.my/vi/70703120.htm
+
+Want your ad to be seen by more people? Share it on Facebook now.
+http://www.facebook.com/sharer.php?u=3Dhttps://www.mudah.my/2.5+Storey+bu=
+ngalow+house-70703120.htm
+
+We hope you will sell your item soon, Happy Selling!
+
+PS, if you've sold your item and want to delete the ad, you can either:
+
+1) Go to your ad on our desktop site and click 'Delete' at the bottom. He=
+re is a direct link for you https://www2.mudah.my/ai/load/?id=3D70703120
+
+OR
+
+2) Go to your ad on our android app and click your android options, then =
+choose delete
+
+
+Here are additional Premium Services:
+---------------------------------------------------------------------
+
+Do you want to edit this ad? Click below link. 
+  https://www2.mudah.my/ai?ca=3D8_s&id=3D70703120#xtor=3DEPR-36-[Prem_ser=
+vices_edit]	
+
+
+Do you want to sell this item quickly? Mark it as urgent!
+  https://www2.mudah.my/ai?ca=3D8_s&id=3D70703120#xtor=3DEPR-38-[Prem_ser=
+vices_urgent]	
+
+
+
+Thanks for your support!
+
+Best regards,
+mudah.my.
+
+Your ad:
+---------------------------------------------------------------------
+Region: Selangor
+
+Name: Wong siew foon 
+Email: wjchong@koofamilies.com
+Phone number: 0137285670
+
+Category: Houses, For sale
+
+Subject: 2.5 Storey bungalow house
+
+Bathroom: 3 
+Facilities: 24 Hour Security | Playground | Jogging Track 
+Other Info: Non Bumi Lot 
+Price: 650000 RM
+Property Type: Bungalow / Villa / Cluster houses 
+Bedrooms: 4 
+Size: 3150 sq.ft.
+Area: Rawang 
+Title type: Freehold 
+
+
+Description:
+Jalan Desa 2/3, Bandar Country Homes. tenanted at Rm1,600 per month. no
+tenancy agreements signed. So, you can move in immediately. 2.5 storey
+bungalow house. Rm650,000
+
+
+
+Price: RM 650 000
+
+
+
+
+
+
+
+
+
+
+Yours sincerely,
+Mudah.my
+
+
+
+
+
+---------------------------------------------------------------------
+https://www.mudah.my - Malaysia's Largest Marketplace
+Mudah.my Sdn Bhd (formerly known as 701Search Sdn Bhd) (782603-v)
+
+

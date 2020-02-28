@@ -1,0 +1,101 @@
+Return-Path: <01020166d22cba66-4b701945-211b-4549-ab9e-800f886c0ff3-000000@eu-west-1.amazonses.com>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id cEuABYux21sHIgAA05H+Cg
+	for <wjchong@koofamilies.com>; Thu, 01 Nov 2018 19:08:11 -0700
+Return-path: <01020166d22cba66-4b701945-211b-4549-ab9e-800f886c0ff3-000000@eu-west-1.amazonses.com>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Thu, 01 Nov 2018 19:08:11 -0700
+Received: from a51-5.smtp-out.eu-west-1.amazonses.com ([54.240.51.5]:42662)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <01020166d22cba66-4b701945-211b-4549-ab9e-800f886c0ff3-000000@eu-west-1.amazonses.com>)
+	id 1gIOsS-0002Fe-Qb
+	for wjchong@koofamilies.com; Thu, 01 Nov 2018 19:08:11 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=3csmndpgots2ub4tuzxln2pqvcqusuzs; d=moengage.com; t=1541124438;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=K9npXdQQCeHeO//oz9CSjPwGIkn+QhHXghSmcn+N5fw=;
+	b=Sup+vaAjad/H2MDdSTh8Sa/SJyOJ2anUWSjnvmGiQBhgdrZao42TOvKcS/6aFUiQ
+	Bf2u14Rw3UI66S/Qo3FLIQN0wAT93OgLYj638fnwAaah8tgxF+Lo0ZN427Iq4BgQqho
+	RAb9VLdROsp/zCF/Gb1OxvOcgfuz+STri1B7H7/w=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1541124438;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=K9npXdQQCeHeO//oz9CSjPwGIkn+QhHXghSmcn+N5fw=;
+	b=b8eopNzseclbeoikt43iJbru2GBKjFmo64MrSETwrm6kCgFPR4ZYcA4ZZ41iS1NK
+	iGqvzkX13QvD19heAarXii5gdxj5AN0HXCatLGYbKHMHNsZhTfMKQk+tgSU4WE90mvJ
+	JBHdIFHc1lA5gxC8aOd7h9DncfoJ0Ghxd/LHAOwQ=
+From: Moengage Alerts <alerts@moengage.com>
+Reply-To: support@moengage.com
+To: wjchong@koofamilies.com
+Subject: click4mayank@gmail.com has been successfully invited to MoEngage
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1028486_743611996.1541124438632"
+Message-ID: <01020166d22cba66-4b701945-211b-4549-ab9e-800f886c0ff3-000000@eu-west-1.amazonses.com>
+Date: Fri, 2 Nov 2018 02:07:18 +0000
+X-SES-Outgoing: 2018.11.02-54.240.51.5
+Feedback-ID: 1.eu-west-1.kQeScnkoGfiBk67j2nGxEqqN2hopXkGrDhPs+vA5tOU=:AmazonSES
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi Wjchong, We have successfully sent an invite mail to click4mayank@gmail.com
+    for the Manager Profile Anytime if you have any questions, you can get in
+    touch with us at support@moengage.com [...] 
+ 
+ Content analysis details:   (0.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+------=_Part_1028486_743611996.1541124438632
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+ 
+------=_Part_1028486_743611996.1541124438632
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">Hi Wjchong,<br><br>We have successfully sent an invite mail to click4mayank@gmail.com for the Manager Profile<br><br>Anytime if you have any questions, you can get in touch with us at <a href="mailto:support@moengage.com" style="-webkit-user-select: auto;">support@moengage.com</a>&nbsp;<br><br>Happy engaging your users!<br>Team Moengage</span></p>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">&nbsp;</span></p>
+	</body>
+</html>
+
+------=_Part_1028486_743611996.1541124438632--

@@ -1,0 +1,128 @@
+.main-hedline h1{
+	 font-size: 14px;
+    background-color:#4b4e52;
+    margin: 0;
+    color: #fff;
+    padding: 0px 10px;
+    margin-bottom: 17px;
+}
+
+.main-box{
+	border:1px solid #f1eded; 
+	margin-bottom: 17px;
+}
+.tiles-progress{
+	position: absolute;
+    background-color: #22acea;
+    width: 94.50%;
+    left: 0px;
+    top: 95px;
+    right: 0;
+    padding: 8px 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.tiles-progress h5{
+	font-size: 12px;
+}
+.color-c1{
+	background-color: #754fb7;
+}
+.color-c2{
+	background-color: #31ab65;
+}
+
+.color-c3{
+	background-color: #6683cc;
+}
+
+.tab-ride td{
+	text-align: left !important;
+}
+.tab-ride h1{
+	font-size: 17px;
+    margin: 0;
+    text-align: left;
+}
+.new_visits {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #1889cb;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+.unique_visits {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #abd037;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+.total-rid ul{
+	list-style: none;
+}
+.total-rid ul li{
+	text-align: left;
+	margin-bottom: 10px;
+}
+.total-rid{
+	margin-top: 26%;
+}
+.bgc-c1{
+	background-color:#d81b60;
+}
+.bgc-cd1{
+	background-color:#c21856;
+}
+.bgc-c2{
+	background-color: #7d6aa0;
+}
+.bgc-cd2{
+	background-color: #705f90;
+}
+.bgc-c3{
+	background-color:#f7941d;
+}
+.bgc-cd3{
+	background-color:#de851a;
+}
+.view-t{
+       background-color: transparent;
+    color: green;
+    padding: 0px;
+    box-shadow: none !important;
+    text-align: center;
+    font-size: 18;
+    margin-right:7px;
+}
+.delete-t{
+       background-color: transparent;
+    color: red;
+    padding: 0px;
+    box-shadow: none !important;
+    text-align: center;
+     font-size: 18;
+    
+}
+.image-view img{
+    width: 200px;
+    height: 200px;
+}
+.paddingt td{
+    padding: 13px !important;
+}
+.t-raing{
+    color: #f4ac00 !important;
+}
+.total-cd{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}

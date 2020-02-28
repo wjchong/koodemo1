@@ -1,0 +1,156 @@
+Return-Path: <noreply@mudah.my>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id UH9YD8hG6ls9YgAA05H+Cg
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 03:36:40 +0000
+Return-path: <noreply@mudah.my>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Mon, 12 Nov 2018 20:36:40 -0700
+Received: from m239.mudah.my ([103.10.41.239]:50476)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <noreply@mudah.my>)
+	id 1gMPV9-0006Wi-An
+	for wjchong@koofamilies.com; Mon, 12 Nov 2018 20:36:40 -0700
+Received: from m34.mudah.my (m34-c64-trans [10.0.0.34])
+	by m239.mudah.my (Postfix) with ESMTP id 952F92050F30
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 11:35:49 +0800 (+08)
+DKIM-Filter: OpenDKIM Filter v2.11.0 m239.mudah.my 952F92050F30
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mudah.my; s=default;
+	t=1542080149; bh=+N9prQCa5dNgR+nBMk44rJMWCfKfv582OW1O8PSN8xM=;
+	h=From:Subject:To:Date:From;
+	b=4D19NUMVX4l/bImyIA+0GgV/4iyf+tJ0R1AI2O5s4OIi7UMZrl9v9sTjBZTOFPW0I
+	 D+lyLXRcdPQboI2D8y+vX15nSqHU3LcKb4h/s/8WQrkvEAvo0CjjFr2aUKggUqVkfk
+	 lNX0naStanMfxUNsnCNMMmf2xtzklnTmKij5dViU=
+Received: by m34.mudah.my (Postfix, from userid 523)
+	id 9450FA8CB; Tue, 13 Nov 2018 11:35:49 +0800 (MYT)
+From: =?UTF-8?Q?Mudah.my?= <noreply@mudah.my>
+Subject: Mudah.my: Your ad is now being checked: (2.5 Storey bungalow house)
+To: <wjchong@koofamilies.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20181113033549.9450FA8CB@m34.mudah.my>
+Date: Tue, 13 Nov 2018 11:35:49 +0800 (MYT)
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Thank you for your support of Mudah.my! Did you know that
+   Mudah.my is the only website that checks every single ad before they are put
+    on our website? This is so everyone can enjoy a safe, high-quality marketplace.
+    
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mudah.my]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mudah.my]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+X-Spam-Flag: NO
+
+Thank you for your support of Mudah.my!
+
+Did you know that Mudah.my is the only website that checks 
+every single ad before they are put on our website? 
+This is so everyone can enjoy a safe, high-quality marketplace.
+
+Your ad is now being confirmed by our ad checking team. 
+We promise to get back to you as fast as possible! 
+
+PS, once your ad is checked and is put on our website, 
+always remember to insist on Cash on Delivery, 
+especially for expensive items! 
+We can all do our part in building Malaysia's #1 
+online marketplace in safety.
+
+----------------------------------------------------------
+
+Terima kasih atas sokongan anda terhadap Mudah.my.
+
+Adakah anda tahu bahawa Mudah.my adalah satu-satunya laman web 
+yang akan sentiasa memeriksa setiap iklan sebelum ia dipamerkan 
+di laman web kami? 
+Ini bagi memastikan agar semua pengguna dapat menikmati 
+pengalaman membeli-belah yang selamat dan berkualiti.
+
+Iklan anda sedang disemak dan anda akan dimaklumkan 
+dengan secepat yang mungkin.
+
+Apabila iklan anda selesai disemak dan dipamerkan di 
+laman Mudah.my, kami mengesyorkan agar anda mengutamakan 
+'Cash on Delivery' (Tunai Atas Penerimaan),  untuk produk  
+yang bernilai tinggi. 
+Bersama-sama kita jadikan urus niaga online anda dengan selamat 
+di laman web no.1 Malaysia.
+
+Your ad:
+---------------------------------------------------------------------
+Region: Selangor
+
+Name: Wong siew foon 
+Email: wjchong@koofamilies.com
+Phone number: 0137285670
+
+Category: Houses, For sale
+
+Subject: 2.5 Storey bungalow house
+
+Bathroom: 3 
+Facilities: 24 Hour Security | Playground | Jogging Track 
+Other Info: Non Bumi Lot 
+Price: 650000 RM
+Property Type: Bungalow / Villa / Cluster houses 
+Bedrooms: 4 
+Size: 3150 sq.ft.
+Area: Rawang 
+Title type: Freehold 
+
+
+Description:
+Jalan Desa 2/3, Bandar Country Homes. tenanted at Rm1,600 per month. no
+tenancy agreements signed. So, you can move in immediately. 2.5 storey
+bungalow house. Rm650,000
+
+
+
+Price: RM 650 000
+
+
+
+
+
+
+
+
+
+
+Yours sincerely,
+Mudah.my
+---------------------------------------------------------------------
+https://www.mudah.my - Malaysia's Largest Marketplace
+Mudah.my Sdn Bhd (formerly known as 701Search Sdn Bhd) (782603-v)
+
+

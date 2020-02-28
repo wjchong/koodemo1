@@ -1,0 +1,273 @@
+Return-Path: <support@moengage.zendesk.com>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id WCdDM3Xe21sVBgAA05H+Cg
+	for <wjchong@koofamilies.com>; Thu, 01 Nov 2018 22:19:49 -0700
+Return-path: <support@moengage.zendesk.com>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Thu, 01 Nov 2018 22:19:49 -0700
+Received: from out8.pod4.sac1.zdsys.com ([192.161.146.75]:34282)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <support@moengage.zendesk.com>)
+	id 1gIRrs-0000N1-LK
+	for wjchong@koofamilies.com; Thu, 01 Nov 2018 22:19:49 -0700
+Received: from out1.pod20.usw2.zdsys.com (unknown [10.219.79.155])
+	by out8.pod4.sac1.zdsys.com (Postfix) with ESMTP id 6B37222BEAFF
+	for <wjchong@koofamilies.com>; Fri,  2 Nov 2018 05:18:55 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by out1.pod20.usw2.zdsys.com (Postfix) with ESMTP id 497FE8000087
+	for <wjchong@koofamilies.com>; Fri,  2 Nov 2018 05:18:55 +0000 (UTC)
+Auto-Submitted: auto-generated
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdbde3fc063_12793fbc822cb950451ac";
+ charset=utf-8
+Date: Fri, 02 Nov 2018 05:18:55 +0000
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk1; t=1541135935;
+ bh=Dusgm31Uk+axlIkZBok7CQy3RGWGSxhdEsmizsDrYzs=;
+ h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version:content-type:content-transfer-encoding;
+ b=q5GDjgglPDTJ00wZsLm9wv4Stk7952u93tOoWI2+j1FHpygzdlt1/lEz/qswkWRLbTgnM2fRXl73dSK5TcMKYU28fyHYyPCsly7r9VpZyjkQWdndLXHxt0kqt4OHVAIOCUyCey+CLEIEDtEkT838ctZHFPFU12wAQIB/31k4gCQ=
+From: "Megha Purkayastha (MoEngage Inc.)" <support@moengage.zendesk.com>
+In-Reply-To: <Z3V47GP5X6@zendesk.com>
+ <Z3V47GP5X6_5bdba0f6a2aee_32b13feecc8cb9502043e8_sprut@zendesk.com>
+Message-Id:
+ <Z3V47GP5X6_5bdbde3ec88f9_12793fbc822cb95045087_sprut@zendesk.com>
+Mime-Version: 1.0
+Received: from zendesk.com (unknown [10.219.89.243]) by
+ out1.pod20.usw2.zdsys.com (Postfix) with ESMTP id 0FB588000089 for
+ <wjchong@koofamilies.com>; Fri,  2 Nov 2018 05:18:55 +0000 (UTC)
+Reply-To: MoEngage Inc <support+id15476@moengage.zendesk.com>
+Subject: [MoEngage Inc.] Re: Hi, may i know the answers for following
+ questions...
+To: Woi joon <wjchong@koofamilies.com>
+X-Auto-Response-Suppress: All
+X-Delivery-Context: event-id-466306792551
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 80f508b
+X-Zendesk-Message-Id:
+ <Z3V47GP5X6_5bdbde3ec88f9_12793fbc822cb95045087_sprut@zendesk.com>
+X-Spam-Status: No, score=-8.0
+X-Spam-Score: -79
+X-Spam-Bar: --------
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  ##- Please type your reply above this line -## Your request
+    (15476) has been updated. To add additional comments, reply to this email.
+    Megha Purkayastha,
+ 
+ Content analysis details:   (-8.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zendesk.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zendesk.com]
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL Match
+  0.0 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+X-Spam-Flag: NO
+
+
+----==_mimepart_5bdbde3fc063_12793fbc822cb950451ac
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##- Please type your reply above this line -##
+
+Your request (15476) has been updated. To add additional comments, reply =
+to this email.
+----------------------------------------------
+
+Megha Purkayastha, Nov 2, 10:48 IST
+
+Hi Woi Joon,
+
+Thanks for writing in.
+
+It should ideally take about 5-7 working days, but this timeline is sligh=
+tly subjective as it depends on the resources which are being allocated a=
+t your end.
+The process to implement push notifications is fairly basic. For web inte=
+gration, you just need to plug-in our javascript code.
+
+You can refer to the implementation docs here.
+
+
+MoEngage Success Team
+
+Please visit our Help Center (http://help.moengage.com/) for any question=
+s. If you can't find what you need, please email us anytime at support@mo=
+engage.com
+
+----------------------------------------------
+
+Woi joon, Nov 2, 06:27 IST
+
+Hi, may i know the answers for following questions:
+1) usually how long to complete installation of your push notification SD=
+K or API?
+2) Is it complicated to install push notification? Can a general web deve=
+loper do that
+Thank you
+
+------------------
+Submitted from: https://app.moengage.com/v3/#/latestActivity
+
+--------------------------------
+This email is a service from MoEngage Inc..
+
+
+
+
+
+
+
+
+
+[Z3V47G-P5X6]=
+
+----==_mimepart_5bdbde3fc063_12793fbc822cb950451ac
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+</head>
+<body lang=3D'en-us' style=3D"width: 100%!important; margin: 0; padding: =
+0;">
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this =
+line -##</div>
+    <p>Your request (15476) has been updated. To add additional comments,=
+ reply to this email.<br /></p><div style=3D"margin-top: 25px" data-versi=
+on=3D"2"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" role=3D"presentation">  <tr>    <td width=3D"100%" style=3D"paddin=
+g: 15px 0; border-top: 1px dotted #c5c5c5;">      <table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"table-layout:fix=
+ed;" role=3D"presentation">        <tr>                      <td valign=3D=
+"top" style=3D"padding: 0 15px 0 15px; width: 40px;">              <img w=
+idth=3D"40" height=3D"40" alt=3D"" style=3D"height: auto; line-height: 10=
+0%; outline: none; text-decoration: none; -webkit-border-radius: 5px; -mo=
+z-border-radius: 5px; border-radius: 5px;" src=3D"https://secure.gravatar=
+.com/avatar/5a8ac4ebe85c604d9f3c62d3ea871b2b?size=3D40&amp;default=3Dhttp=
+s%3A%2F%2Fassets.zendesk.com%2Fimages%2F2016%2Fdefault-avatar-80.png&amp;=
+r=3Dg" />            </td>                    <td width=3D"100%" style=3D=
+"padding: 0; margin: 0;" valign=3D"top">            <p style=3D"font-fami=
+ly: 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sa=
+ns-serif; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-to=
+p: 0; padding: 0; color:#1b1d1e;">                                       =
+                             <strong>Megha Purkayastha</strong> (MoEngage=
+ Inc.)                                                            </p>   =
+         <p style=3D"font-family: 'Lucida Grande','Lucida Sans Unicode','=
+Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-height: 25p=
+x; margin-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb;">      =
+        Nov 2, 10:48 IST            </p>                                 =
+   <div class=3D"zd-comment" style=3D"color: #2b2e2f; font-family: 'Lucid=
+a Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-siz=
+e: 14px; line-height: 22px; margin: 15px 0">Hi Woi Joon,<br /><br />Thank=
+s for writing in.<br /><br />It should ideally take about 5-7 working day=
+s, but this timeline is slightly subjective as it depends on the resource=
+s which are being allocated at your end.<br />The process to implement pu=
+sh notifications is fairly basic. For web integration, you just need to p=
+lug-in our javascript code.<br /><br />You can refer to the implementatio=
+n docs <a href=3D"https://docs.moengage.com/docs/web-sdk-integration" rel=
+=3D"noreferrer">here</a>.<br /><br /><div class=3D"signature"><p style=3D=
+"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Ta=
+homa', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 1=
+5px 0" dir=3D"auto">MoEngage Success Team</p><p style=3D"color: #2b2e2f; =
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, s=
+ans-serif; font-size: 14px; line-height: 22px; margin: 15px 0" dir=3D"aut=
+o">Please visit our Help Center (<a href=3D"http://help.moengage.com/" re=
+l=3D"noreferrer">http://help.moengage.com/</a>) for any questions. If you=
+ can't find what you need, please email us anytime at <a href=3D"mailto:s=
+upport@moengage.com" rel=3D"noreferrer">support@moengage.com</a></p></div=
+></div><p>                                  </p></td>        </tr>      <=
+/table>    </td>  </tr></table><p></p><table width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" role=3D"presentation">  <tr>    <td wi=
+dth=3D"100%" style=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;"> =
+     <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"table-layout:fixed;" role=3D"presentation">        <tr>      =
+                <td valign=3D"top" style=3D"padding: 0 15px 0 15px; width=
+: 40px;">              <img width=3D"40" height=3D"40" alt=3D"" style=3D"=
+height: auto; line-height: 100%; outline: none; text-decoration: none; -w=
+ebkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" s=
+rc=3D"https://secure.gravatar.com/avatar/1c55a6e98dfc147a8870756e8452dd87=
+?size=3D40&amp;default=3Dhttps%3A%2F%2Fassets.zendesk.com%2Fimages%2F2016=
+%2Fdefault-avatar-80.png&amp;r=3Dg" />            </td>                  =
+  <td width=3D"100%" style=3D"padding: 0; margin: 0;" valign=3D"top">    =
+        <p style=3D"font-family: 'Lucida Grande','Lucida Sans Unicode','L=
+ucida Sans',Verdana,Tahoma,sans-serif; font-size: 15px; line-height: 18px=
+; margin-bottom: 0; margin-top: 0; padding: 0; color:#1b1d1e;">          =
+                    <strong>Woi joon</strong>                          </=
+p>            <p style=3D"font-family: 'Lucida Grande','Lucida Sans Unico=
+de','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-height=
+: 25px; margin-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb;"> =
+             Nov 2, 06:27 IST            </p>                            =
+        <div class=3D"zd-comment" style=3D"color: #2b2e2f; font-family: '=
+Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; fon=
+t-size: 14px; line-height: 22px; margin: 15px 0"><p style=3D"color: #2b2e=
+2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdan=
+a, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0" dir=3D=
+"auto">Hi, may i know the answers for following questions:<br />1) usuall=
+y how long to complete installation of your push notification SDK or API?=
+<br />2) Is it complicated to install push notification? Can a general we=
+b developer do that<br />Thank you</p><p style=3D"color: #2b2e2f; font-fa=
+mily: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-ser=
+if; font-size: 14px; line-height: 22px; margin: 15px 0" dir=3D"auto">----=
+--------------<br />Submitted from: <a href=3D"https://app.moengage.com/v=
+3/#/latestActivity" target=3D"_blank" rel=3D"nofollow noreferrer">https:/=
+/app.moengage.com/v3/#/latestActivity</a></p></div>                      =
+            </td>        </tr>      </table>    </td>  </tr></table></div=
+>
+    <div style=3D"color: #aaaaaa; margin: 10px 0 14px 0; padding-top: 10p=
+x; border-top: 1px solid #eeeeee;">
+     This email is a service from MoEngage Inc.. Delivered by <a href=3D"=
+https://www.zendesk.com/product/tour/?utm_campaign=3Dtext&amp;utm_content=
+=3DMoEngage+Inc.&amp;utm_medium=3Dpoweredbyzendesk&amp;utm_source=3Demail=
+-notification" style=3D"color: black;" target=3D"_blank">Zendesk</a>
+    </div>
+  </div>
+<span style=3D'color:#FFFFFF' aria-hidden=3D'true'>[Z3V47G-P5X6]</span></=
+body>
+</html>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage" style=3D"displ=
+ay:none">  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.o=
+rg/ViewAction">    <link itemprop=3D"url" href=3D"https://help.moengage.c=
+om/hc/requests/15476" />    <meta itemprop=3D"name" content=3D"View ticke=
+t"/>  </div></div>=
+
+----==_mimepart_5bdbde3fc063_12793fbc822cb950451ac--

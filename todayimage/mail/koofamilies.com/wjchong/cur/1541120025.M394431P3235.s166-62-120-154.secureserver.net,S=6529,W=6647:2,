@@ -1,0 +1,118 @@
+Return-Path: <01020166d1e88f39-431e4bf1-9eb8-4296-9de2-d36e7f3b1318-000000@eu-west-1.amazonses.com>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id QCZaFxmg21ujDAAA05H+Cg
+	for <wjchong@koofamilies.com>; Thu, 01 Nov 2018 17:53:45 -0700
+Return-path: <01020166d1e88f39-431e4bf1-9eb8-4296-9de2-d36e7f3b1318-000000@eu-west-1.amazonses.com>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Thu, 01 Nov 2018 17:53:45 -0700
+Received: from a51-5.smtp-out.eu-west-1.amazonses.com ([54.240.51.5]:39932)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <01020166d1e88f39-431e4bf1-9eb8-4296-9de2-d36e7f3b1318-000000@eu-west-1.amazonses.com>)
+	id 1gINiP-0000pL-2y
+	for wjchong@koofamilies.com; Thu, 01 Nov 2018 17:53:45 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=3csmndpgots2ub4tuzxln2pqvcqusuzs; d=moengage.com; t=1541119971;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=hWmR9HiyuW8g/7B8X6OOnIDC51RFIt2rGhZBRHUA/FM=;
+	b=grlkUAnaixKFokIbhBXNx5GN0zTF1wj60XPyT18Mtr2DJOgrj4MhbNcBLSC1jShF
+	cc/Uz+kuiX19EvRQUFbeh9SGx3FbwmzHNf8mRe7pXschhQe5hKNe/o2n4jDTlu1HlYX
+	5rT2hib0SMBI3gxQ3LtvowgzJsqsJ12eNk0eX+q0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1541119971;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=hWmR9HiyuW8g/7B8X6OOnIDC51RFIt2rGhZBRHUA/FM=;
+	b=S3yrcLb329W52qDHEB8CIHUOEboKOYnPRLU47WcpxbthBsaLvGL84vRyx6Olr2Is
+	d57QWSWYUsluazdXM958y553yJBxf0rl1LJ/B+GGRpdcYpzhx6Su4WbJjKXy4/C+suZ
+	tkSK1QktDpNjvrUgboXssx+niOjezclmojlhWfbM=
+From: Moengage Alerts <alerts@moengage.com>
+Reply-To: support@moengage.com
+To: wjchong@koofamilies.com
+Subject: Welcome to MoEngage! Let's get you started
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1055090_1823294868.1541119971130"
+Message-ID: <01020166d1e88f39-431e4bf1-9eb8-4296-9de2-d36e7f3b1318-000000@eu-west-1.amazonses.com>
+Date: Fri, 2 Nov 2018 00:52:51 +0000
+X-SES-Outgoing: 2018.11.02-54.240.51.5
+Feedback-ID: 1.eu-west-1.kQeScnkoGfiBk67j2nGxEqqN2hopXkGrDhPs+vA5tOU=:AmazonSES
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi Wjchong, We are happy to have Https://www.koofamilies.com
+    on-board with us! Pretty soon, you will be using best resources to Engage
+    your app/web customers with the Right Message at the Right Time. 
+ 
+ Content analysis details:   (0.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+------=_Part_1055090_1823294868.1541119971130
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+ 
+------=_Part_1055090_1823294868.1541119971130
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">Hi Wjchong,</span></p>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">We are happy to have Https://www.koofamilies.com on-board with us!&nbsp;</span></p>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">Pretty soon, you will be using best resources to Engage your app/web customers with the Right Message at the Right Time.</span></p>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;"><strong>How do you wish to proceed from here?</strong></span></p>
+
+		<ul>
+			<li><span style="font-family: Tahoma,Geneva,sans-serif;"><span style="font-family: Tahoma,Geneva,sans-serif;"><a href="http://app.moengage.com" style="-webkit-user-select: auto;" target="_blank">Explore the Dashboard</a></span></span>
+			</li>
+			<li><span style="font-family: Tahoma,Geneva,sans-serif;"><span style="font-family: Tahoma,Geneva,sans-serif;"><a href="http://docs.moengage.com" style="-webkit-user-select: auto;" target="_blank">Integrate the SDKs</a></span></span>
+			</li>
+			<li><span style="font-family: Tahoma,Geneva,sans-serif;"><span style="font-family: Tahoma,Geneva,sans-serif;"><a href="http://help.moengage.com" style="-webkit-user-select: auto;" target="_blank">Learn more at MoEngage Help Center</a></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+			</li>
+		</ul>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">In case, you have any questions about getting started - you can reply here, chat with us on dashboard or directly reach out to us at <a href="mailto:support@moengage.com" style="-webkit-user-select: auto;">support@moengage.com</a>.</span></p>
+
+		<p><span style="font-family: Tahoma,Geneva,sans-serif;">Happy engaging your users!<br>Customer Success, MoEngage</span></p>
+	</body>
+</html>
+
+------=_Part_1055090_1823294868.1541119971130--

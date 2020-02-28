@@ -1,0 +1,91 @@
+Return-Path: <caressa@mudah.my>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id 4ImsB8Cx61uhEQAA05H+Cg
+	for <wjchong@koofamilies.com>; Wed, 14 Nov 2018 05:25:20 +0000
+Return-path: <caressa@mudah.my>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Tue, 13 Nov 2018 22:25:20 -0700
+Received: from m239.mudah.my ([103.10.41.239]:50678)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <caressa@mudah.my>)
+	id 1gMnfq-00018R-PT
+	for wjchong@koofamilies.com; Tue, 13 Nov 2018 22:25:20 -0700
+Received: from m119.mudah.my (m119 [10.0.0.119])
+	by m239.mudah.my (Postfix) with ESMTP id 4AB67205F150
+	for <wjchong@koofamilies.com>; Wed, 14 Nov 2018 13:24:28 +0800 (+08)
+DKIM-Filter: OpenDKIM Filter v2.11.0 m239.mudah.my 4AB67205F150
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mudah.my; s=default;
+	t=1542173068; bh=OkPxnK6B+Fihm2oKSdsxVbZ1OfSO9/N+oSfmXkv+xJY=;
+	h=From:Subject:To:Date:From;
+	b=riVLq2alw9IAKNSL+jOPWcOQkNqogkLm59hSAhdigDVvkjpRK8B5DLWkONe6QBA55
+	 1RheSOYlaIRjV5ajqRdycWrK+52yRuuVy7XeN7EkWHYkwjzeasDIpbUwD8tljrW8Q5
+	 6wXSpo0GNMtfYdl+NZLEFxmxkFP+KpeWuuld6Mp4=
+Received: by m119.mudah.my (Postfix, from userid 503)
+	id 47D741421A; Wed, 14 Nov 2018 13:24:28 +0800 (MYT)
+From: =?UTF-8?Q?Caressa?= <caressa@mudah.my>
+Subject: Hello Wong siew foon, welcome to Mudah.my :)
+To: <wjchong@koofamilies.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20181114052428.47D741421A@m119.mudah.my>
+Date: Wed, 14 Nov 2018 13:24:28 +0800 (MYT)
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  I'm Caressa from the Mudah.my team. I'm writing to personally
+    welcome you to the Mudah.my community :) We are doing a survey to find out
+    our users' views on online shopping... If you have a minute, please help
+   us fill it out- it'll be extremely useful to us! 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: surveymonkey.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: surveymonkey.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+I'm Caressa from the Mudah.my team. I'm writing to personally welcome you=
+ to the Mudah.my community :)
+
+We are doing a survey to find out our users' views on online shopping... =
+If you have a minute, please help us fill it out- it'll be extremely usef=
+ul to us!
+
+https://www.surveymonkey.com/s/onlinesafetysurvey
+
+Hope to hear from you soon, and happy buying and selling!
+
+Caressa
+caressa@mudah.my
+
+---------------------------------------------------------------------
+https://www.mudah.my - Malaysia's Largest Marketplace
+Mudah.my Sdn Bhd (formerly known as 701Search Sdn Bhd) (782603-v)
+
+

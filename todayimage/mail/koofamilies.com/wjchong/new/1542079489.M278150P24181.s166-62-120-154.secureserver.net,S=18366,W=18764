@@ -1,0 +1,398 @@
+Return-Path: <noreply@mudah.my>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id KLKpDQFE6lt1XgAA05H+Cg
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 03:24:49 +0000
+Return-path: <noreply@mudah.my>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Mon, 12 Nov 2018 20:24:49 -0700
+Received: from m239.mudah.my ([103.10.41.239]:46084)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <noreply@mudah.my>)
+	id 1gMPJf-0006H4-8b
+	for wjchong@koofamilies.com; Mon, 12 Nov 2018 20:24:49 -0700
+Received: from m34.mudah.my (m34-c64-trans [10.0.0.34])
+	by m239.mudah.my (Postfix) with ESMTP id 386A92027426
+	for <wjchong@koofamilies.com>; Tue, 13 Nov 2018 11:23:57 +0800 (+08)
+DKIM-Filter: OpenDKIM Filter v2.11.0 m239.mudah.my 386A92027426
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mudah.my; s=default;
+	t=1542079437; bh=vCSQpbJ0vOzDPhs24itztMynneoVFBUMIpN++sUgPHw=;
+	h=From:To:Subject:Date:From;
+	b=cxeblD44XXGM8UJTuf9dsqVnE/2PvLazwKSb+CkTDekDMsVXzvLx87AJ7SDe2jVur
+	 6GVl1RDo2C47wgR1L0Yh0GPcYbmN0JN1BfVC68Om+dmSHL8eikXknSVYPfe+vRgTlQ
+	 7EEwRDH7SmSFKW8jr3ouXgU/aihMAFjC9wOFeGlM=
+Received: by m34.mudah.my (Postfix, from userid 523)
+	id 37522A8CB; Tue, 13 Nov 2018 11:23:57 +0800 (MYT)
+From: Mudah.my <noreply@mudah.my>
+To: <wjchong@koofamilies.com>
+Subject: Mudah.my Personal Account Email Verification
+Content-Type: multipart/alternative; boundary="_a944c8a181c7da052bc42adcdee50625"
+Message-Id: <20181113032357.37522A8CB@m34.mudah.my>
+Date: Tue, 13 Nov 2018 11:23:57 +0800 (MYT)
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Dear Wjchong, Welcome to your personal account! We are excited
+    to help you buy and sell items. Enjoy the following benefits: • Check and
+    manage your live ads easily. • Talk to buyers and sellers directly through
+    our new chat feature! 
+ 
+ Content analysis details:   (1.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mudah.my]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mudah.my]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required
+                             MIME headers
+  0.0 TVD_PH_BODY_ACCOUNTS_PRE The body matches phrases such as
+                             "accounts suspended", "account credited",
+                             "account verification"
+X-Spam-Flag: NO
+
+--_a944c8a181c7da052bc42adcdee50625
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+
+Dear Wjchong,
+
+
+Welcome to your personal account! We are excited to help you buy and sell items.
+
+
+Enjoy the following benefits: 
+• Check and manage your live ads easily.
+• Talk to buyers and sellers directly through our new chat feature!
+
+
+
+To get started, [verify your account now] 
+https://www2.mudah.my/useraccount.html?c=activation&token=S1ZNTmEweTVCOEdPcHdqY2hvbmdAa29vZmFtaWxpZXMuY29t
+
+
+Best regards,
+Mudah.my
+
+
+(For the tip:)
+For more inquiries, please call our Customer Engagement Team at
+03 2284 9701 or email advertising@mudah.my.
+
+---------------------------------------------------------------------
+https://www.mudah.my - Malaysia's Largest Marketplace
+Mudah.my Sdn Bhd (formerly known as 701Search Sdn Bhd) (782603-v)
+
+
+--_a944c8a181c7da052bc42adcdee50625
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        
+        body {
+        Margin: 0;
+            padding: 0;
+            min-width: 100%;
+            background-color: #f5f5f5;
+        }
+        table {
+            border-spacing: 0;
+            font-size: 12px;
+            font-family: 'Roboto', Helvetica, Arial, sans-serif;
+            color: #414141;
+        }
+        td {
+            padding: 0;
+        }
+        img {
+            border: 0;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        .webkit {
+            max-width: 600px;
+        }
+        
+        .outer {
+        Margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+        .full-width-image img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .content-outer {
+            padding: 15px 15px 0 13px;
+        }
+        .content {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 18px 15px;
+        }
+        .suggestions-outer {
+            padding: 20px 0 35px 0;
+        }
+        .suggestions {
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding-top: 30px;
+            text-align: center;
+            width: 100%;
+        }
+        .suggestions .column {
+            display: inline-block;
+            padding: 0 10px 20px 10px;
+            max-width: 108px;
+            vertical-align: top;
+            width: 100%;
+        }
+        .suggestions .contents {
+            text-align: left;
+        }
+        .suggestions img {
+            width: 100%;
+            max-width: 108px;
+            height: auto;
+        }
+        .suggestion-title {
+            padding-top: 4px;
+            font-weight: bold;
+        }
+        .suggestion-price {
+            padding-top: 5px;
+            color: #dd0000;
+            font-weight: bold;
+        }
+        .message-outer {
+            padding: 22px 15px 28px 13px;
+        }
+        .message {
+            background-color: #00a6e6; 
+            border: 1px solid #00a6e6;
+            border-radius: 5px;
+        }
+        .message-img {
+            line-height: 8px;
+        }
+        .message-img img {
+            width: 100%;
+            margin-top: -14px;
+            max-width: 92px;
+            height: auto;
+        }
+        .message-text {
+            color: #fff;
+            padding: 3px 10px 3px 8px;
+            width: 80%;
+        }
+        .followus {
+            padding: 0 15px 20px 13px;
+        }
+        .followus-gap {
+            padding-right: 5px;
+        }
+       
+    </style>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse !important;}
+    </style>
+    <![endif]-->
+</head>
+<body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#f5f5f5;" >
+    <center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >
+        <div class="webkit" style="max-width:600px;" >
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;" >
+            <tr>
+            <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table class="outer" align="center" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;Margin:0 auto;width:100%;max-width:600px;" >
+                <tr>
+                    <td class="full-width-image" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <img src="https://www.mudah.my/img/useraccount_header_welcome_640.png" style="border-width:0;width:100%;max-width:600px;height:auto;" width="600" alt="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="572" align="center" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;" >
+                        <tr>
+                        <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="content-outer" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;padding-top:15px;padding-bottom:0;padding-right:15px;padding-left:13px;" >
+                        <tr>
+                        <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="540" align="center" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;" >
+                        <tr>
+                        <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+			
+                       	<table class="content" align="center" style="" >
+	<tr align="left">
+		<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+			<p>Dear Wjchong,</p>
+			<p><br/>Welcome to your personal account! We are excited to help you buy and sell items.</p>
+			<p><br/>
+				Enjoy the following benefits:<br/>
+				<ul>
+					<li>Check and manage your live ads easily.</li>
+					<li>Talk to buyers and sellers directly through our new chat feature!</li>
+				</ul>
+			</p>
+			<p><br/>
+			
+				<a data-page_name="login mudah.my" href="https://www2.mudah.my/useraccount.html?c=activation&token=S1ZNTmEweTVCOEdPcHdqY2hvbmdAa29vZmFtaWxpZXMuY29t" id="text_link" style="background-color: #00a6e6;padding: 3px 10px;color: white;text-decoration: none;border: 1px solid transparent;border-radius: 4px;" data-event_type="link" title="Verify your account now">Verify your account now</a> to get started
+			
+			</p>
+			<p>
+				If you're unable to click on the button above, copy and paste the URL this link into a new browser window instead.
+			</p>
+			<p>
+			
+				<a data-page_name="Open Verification Email" href="https://www2.mudah.my/useraccount.html?c=activation&token=S1ZNTmEweTVCOEdPcHdqY2hvbmdAa29vZmFtaWxpZXMuY29t" id="text_link" style="" data-event_type="link" title="Verify your account now">https://www2.mudah.my/useraccount.html?c=activation&token=S1ZNTmEweTVCOEdPcHdqY2hvbmdAa29vZmFtaWxpZXMuY29t
+			
+			</p>
+		</td>
+	</tr>
+	<tr align="left">
+		<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+			<br/>Best regards,<br />
+			<b>Mudah.my</b>
+		</td>
+	</tr>
+</table>
+<img width="1" height="1" alt="" src="http://logw344.ati-host.net/hit.xiti?s=406344&xto=EPR-1400-[confirmation_email_open]-20181113&type=email&">
+ 
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        </td>
+                        </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="572" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="message-outer" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;padding-top:22px;padding-bottom:28px;padding-right:15px;padding-left:13px;" >
+                        <tr>
+                        <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="570" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="message" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;background-color:#00a6e6;border-width:1px;border-style:solid;border-color:#00a6e6;border-radius:5px;" >
+                            <tr>
+                                <td class="message-img" valign="bottom" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;line-height:8px;" >
+                                    <img src="https://www.mudah.my/img/useraccount_tip_640.png" style="border-width:0;width:100%;margin-top:-14px;max-width:92px;height:auto;" />
+                                </td>
+                                <td class="message-text" style="color:#fff;padding-top:3px;padding-bottom:3px;padding-right:10px;padding-left:8px;width:80%;" >
+                                    For more inquiries, please call our Customer Engagement Team at 03 2284 9701 or email <a href="mailto:advertising@mudah.my" style="color:#fff">advertising@mudah.my</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        </td>
+                        </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="166" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="followus" align="right" style="border-spacing:0;font-size:12px;font-family:'Roboto', Helvetica, Arial, sans-serif;color:#414141;padding-top:0;padding-bottom:20px;padding-right:15px;padding-left:13px;" >
+                            <tr>
+                                <td class="followus-gap" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:5px;" >Follow us:</td>
+                                <td class="followus-gap" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:5px;" ><a href="https://www.facebook.com/mudah.my" target="_blank" style="text-decoration:none;" ><img src="https://www.mudah.my/img/watch_email_social_FB_640.png" style="border-width:0;" /></a></td>
+                                <td class="followus-gap" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:5px;" ><a href="https://twitter.com/mudah" target="_blank" style="text-decoration:none;" ><img src="https://www.mudah.my/img/watch_email_social_twitter_640.png" style="border-width:0;" /></a></td>
+                                <td class="followus-gap" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:5px;" ><a href="https://instagram.com/mudahmy/" target="_blank" style="text-decoration:none;" ><img src="https://www.mudah.my/img/watch_email_social_instagram_640.png" style="border-width:0;" /></a></td>
+                                <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><a href="https://plus.google.com/+Mudah" target="_blank" style="text-decoration:none;" ><img src="https://www.mudah.my/img/watch_email_social_google_640.png" style="border-width:0;" /></a></td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </center>
+</body>
+</html>
+
+--_a944c8a181c7da052bc42adcdee50625--

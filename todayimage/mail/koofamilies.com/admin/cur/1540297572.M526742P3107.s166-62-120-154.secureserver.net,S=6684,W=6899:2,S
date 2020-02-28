@@ -1,0 +1,215 @@
+Return-Path: <validation@digicert.com>
+Delivered-To: admin@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id KKw+H2QTz1sjDAAA05H+Cg
+	for <admin@koofamilies.com>; Tue, 23 Oct 2018 05:26:12 -0700
+Return-path: <validation@digicert.com>
+Envelope-to: admin@koofamilies.com
+Delivery-date: Tue, 23 Oct 2018 05:26:12 -0700
+Received: from mail.digicert.com ([64.58.225.116]:60324)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <validation@digicert.com>)
+	id 1gEvl1-0000n3-LN
+	for admin@koofamilies.com; Tue, 23 Oct 2018 05:26:12 -0700
+Date: Tue, 23 Oct 2018 06:25:04 -0600
+To: admin@koofamilies.com
+From: DigiCert Validation <validation@digicert.com>
+Reply-To: DigiCert Validation <validation@digicert.com>
+Subject: Please validate ownership of your domain www.koofamilies.com -- DigiCert order 03605761
+Message-ID: <a607300deff7d23ee6a727a69fa70d87@mail.digicert.com>
+X-Mailer: PHP
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_a607300deff7d23ee6a727a69fa70d87"
+X-Spam-Status: No, score=1.2
+X-Spam-Score: 12
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  DigiCert recently received a certificate request that requires
+    approval prior to the certificate's issuance. To review and approve this
+   request, visit the following link: https://www.digicert.com/li
+ 
+ Content analysis details:   (1.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digicert.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digicert.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of words
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_a607300deff7d23ee6a727a69fa70d87
+Content-Type: text/plain; charset=utf-8
+
+DigiCert recently received a certificate request that requires
+approval prior to the certificate's issuance. 
+
+To review and approve this request, visit the following link: 
+
+https://www.digicert.com/link/approve.php?t=vrj41bktshpjh0tzsm34p6fp5ggzyp
+[https://www.digicert.com/link/approve.php?t=vrj41bktshpjh0tzsm34p6fp5ggzyp]
+
+
+Domain names requiring your approval: www.koofamilies.com 
+
+The certificate was requested by: 
+
+woi joon chong
+CEO
+cwoijoon@gmail.com
+0060123115670 
+
+If you do not approve of this request, or if you have any questions or
+concerns please contact us directly.
+
+Thanks!
+The DigiCert Team
+
+Phone: 1-801-701-9600
+Email: support@digicert.com [mailto:support@digicert.com]
+Live Chat: www.digicert.com [https://www.digicert.com/]
+
+
+--b1_a607300deff7d23ee6a727a69fa70d87
+Content-Type: text/html; charset=utf-8
+
+<html>
+<head>
+</head>
+<body>
+<style type="text/css" rel="stylesheet">
+<!--
+body {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 10px;
+}
+body, td, th, div, p {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+	font-weight: normal;
+	color: black;
+}
+h2 {
+	font-family: Helvetica, Arial
+	font-size: 120%;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #007EC4;
+}
+
+.blu {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+	font-weight: 400;
+	color: #007EC4;
+	padding: 0px
+}
+.orgmaintext {
+	font-family: Helvetica, Arial;
+	font-size: 100%;
+	font-weight: normal;
+	color: #FF4E00;
+	text-decoration: none;
+}
+.errormsg {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+	color: #FF5001;
+}
+.tablerow {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+	font-weight: normal;
+	color: #007EC4;
+	background-color: #EBF4FA;
+}
+.tablerowdark {
+	font-family: Helvetica, Arial;
+	font-size: 90%;
+	font-weight: normal;
+	color: #007EC4;
+	background-color: #C6DEFF;
+	border:0;
+}
+.tabletitle2 {
+	font-family: Helvetica, Arial;
+	font-size: 100%;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #007EC4;
+}
+
+li {
+	list-style: disc;
+	margin: 0 0 0 20px;
+	padding: 2px 0;
+}
+ol li {
+	list-style: decimal;
+}
+a {
+	color: #027EC7;
+	font-weight: normal;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+table.grid thead th {
+	border-bottom: 2px solid #666666;
+	padding-left: 4px;
+}
+table.grid td, table.grid th {
+	padding:5px 5px 5px 5px;
+	border-left: solid #ddd 1px;
+}
+table.grid tbody tr:nth-child(2n+1) td {
+	background-color: #F2F2F2;
+}
+table.grid {
+	margin:4px;
+	border: solid #ddd 1px;
+	border-left:0px;
+	border-collapse: separate;
+}
+-->
+</style>
+<br/><br/><p>DigiCert recently received a certificate request that requires approval prior to the certificate's issuance.</p>
+<p>To review and approve this request, visit the following link:</p>
+<p><a href="https://www.digicert.com/link/approve.php?t=vrj41bktshpjh0tzsm34p6fp5ggzyp">https://www.digicert.com/link/approve.php?t=vrj41bktshpjh0tzsm34p6fp5ggzyp</a></p>
+<p>Domain names requiring your approval: www.koofamilies.com</p>
+<p>The certificate was requested by:</p>
+<p>woi joon chong<br/>CEO<br/>
+cwoijoon@gmail.com<br/>0060123115670</p>
+<p>If you do not approve of this request, or if you have any questions or concerns please contact us directly.</p></font></p><p><font size="2">Thanks!<br /></font></p><p><font size="2">The DigiCert Team</font></p><p><font size="2">Phone: 1-801-701-9600<br />Email: <a href="mailto:support@digicert.com">support@digicert.com</a><br />Live Chat: <a href="https://www.digicert.com/">www.digicert.com</a><br /></font></p><img src="https://content.digicert.com/images/sigs/digicert-logo-latest.png?cbr=1" height="26" vspace="10" width="119"></body>
+</html>
+
+
+
+--b1_a607300deff7d23ee6a727a69fa70d87--
+

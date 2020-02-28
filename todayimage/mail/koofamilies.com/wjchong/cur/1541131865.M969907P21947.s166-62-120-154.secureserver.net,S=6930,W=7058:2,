@@ -1,0 +1,128 @@
+Return-Path: <monika@moengage.io>
+Delivered-To: wjchong@koofamilies.com
+Received: from s166-62-120-154.secureserver.net
+	by s166-62-120-154.secureserver.net with LMTP id 6D6pOVnO21u7VQAA05H+Cg
+	for <wjchong@koofamilies.com>; Thu, 01 Nov 2018 21:11:05 -0700
+Return-path: <monika@moengage.io>
+Envelope-to: wjchong@koofamilies.com
+Delivery-date: Thu, 01 Nov 2018 21:11:05 -0700
+Received: from mail-pl1-f196.google.com ([209.85.214.196]:35326)
+	by s166-62-120-154.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <monika@moengage.io>)
+	id 1gIQnN-0005gD-8W
+	for wjchong@koofamilies.com; Thu, 01 Nov 2018 21:11:05 -0700
+Received: by mail-pl1-f196.google.com with SMTP id n4-v6so384307plp.2
+        for <wjchong@koofamilies.com>; Thu, 01 Nov 2018 21:10:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=moengage.io; s=google;
+        h=date:user-agent:message-id:to:from:subject:mime-version;
+        bh=/9o8szdvFkvUXEJFeRlFxV1KYZuuI2Qku8Ute8sMCjU=;
+        b=Knj/RNy5+S4NJBkN76M3pUiaiAcP8ssfk4sgETfS9Chc64tDcgzZmE3VZ3ETBYWh73
+         xFgPhj9Yg72002D8X9mU//DQO5hV65ssNT9DjEvevc0HE9H52J3gPQGnyHDeHt+oBL+d
+         jLAbj1kkhmd+ZcHg6VHuJvNl37WpxWOMtzcNs=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:date:user-agent:message-id:to:from:subject
+         :mime-version;
+        bh=/9o8szdvFkvUXEJFeRlFxV1KYZuuI2Qku8Ute8sMCjU=;
+        b=tz+kK0OZn6PzavCyPIzWcTMgdv5ih/KKFGJ15f6yytIH2+WdpbeL0+8c4EqihUFOse
+         2SJO7qhRqZeVVg4DTdUIrYOzG6ks48Wjhyp4oWclMs4T8bintVUQx8QEjVhD1dZUd5Pa
+         K2/qO1vz8D9eQNp5LXqr7f6JJrcW/M3oTyeax72+7mh3mQ6Jb9YIm+WhdMDbDKbpyvob
+         6spjn1gmM8rHr0lfZzZAQSAF9OPGXDKPsOdvhgf0D4QLhImKC/gK9nKGbllJriJXenvM
+         ozeWdnWmA8gMeJaBLt+1KJtZ6/XOI9oJPPsJ/VY3QVFMsU9+ASy1YCxsRFX5p6gGjac+
+         25aw==
+X-Gm-Message-State: AGRZ1gJxIk6wReVK0GFGDQxBckOxroVyNrEXjdwTJCU1nfD6qhH3kwUm
+	Zjs5bMxg6yFpW7/GJvT3bdyP7zQ6YQo=
+X-Google-Smtp-Source: AJdET5e1CuUd2hYoO6WwJMJylXvAhaWzwiKnkntxq2a1mg+WXV4ONvuRD+dP3bNm5lrqtfx3ff189Q==
+X-Received: by 2002:a17:902:744a:: with SMTP id e10-v6mr10346843plt.61.1541131812529;
+        Thu, 01 Nov 2018 21:10:12 -0700 (PDT)
+Received: from smtp.nylas.com (smtp.nylas.com. [54.149.110.158])
+        by smtp.gmail.com with ESMTPSA id r4sm1220465pgn.54.2018.11.01.21.10.11
+        for <wjchong@koofamilies.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 01 Nov 2018 21:10:12 -0700 (PDT)
+Date: Fri, 02 Nov 2018 04:10:11 +0000
+User-Agent: NylasMailer/18.0.0
+Message-Id: <a0wteq7wgyfeogivrfwg8evst-0@mailer.nylas.com>
+X-Inbox-Id: a0wteq7wgyfeogivrfwg8evst-0
+To: wjchong@koofamilies.com
+From: Monika Solanki <monika@moengage.io>
+Subject: MoEngage I You requested a demo
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="1ddfac75d52f4669bbeb9de6c9aa9fac"
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "s166-62-120-154.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi Woi joon, How are you? I noticed you requested a demo with
+    MoEngage. I work with companies in your area, and my goal is to be helpful
+    during your evaluation process. Our demos are two parts. The 
+ 
+ Content analysis details:   (1.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.214.196 listed in wl.mailspike.net]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: moengage.io]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: herokuapp.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+--1ddfac75d52f4669bbeb9de6c9aa9fac
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="ascii"
+Mime-Version: 1.0
+
+Hi Woi joon,  
+  
+How are you?  
+  
+I noticed you requested a demo with MoEngage. I work with companies in your
+area, and my goal is to be helpful during your evaluation process.  
+Our demos are two parts. The first is a conversation focused around helping me
+to understand what you're hoping we can help with, as well as your strategy
+and goals in general, so then I can customize your demo accordingly.  
+To get started, do let me know when can we have a quick 10 minutes call around
+the same.  
+Looking forward to connecting.  
+  
+If you don't want to hear from me again, please [let me know](http://infinite-
+stream-5194.herokuapp.com/optout?m=mmm_EOoEL9&email=wjchong@koofamilies.com).![](http
+://infinite-stream-5194.herokuapp.com/pixel/mmm_EOoEL9.gif)
+
+--1ddfac75d52f4669bbeb9de6c9aa9fac
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset="ascii"
+Mime-Version: 1.0
+
+Hi Woi joon,<br />
+<br />
+How are&nbsp;you?<br />
+<br />
+I noticed&nbsp;you&nbsp;requested&nbsp;a&nbsp;demo&nbsp;with MoEngage. I work with companies in your area, and my goal is to be helpful during your evaluation process.<br />
+Our demos are two parts. The first is a conversation focused around helping me to understand what&nbsp;you're hoping we can help with, as well as your strategy and goals in general, so then I can customize your&nbsp;demo&nbsp;accordingly.<br />
+To get started, do let me know when can we have a quick 10 minutes call around the same.<br />
+Looking forward to connecting.<br/><br/>If you don't want to hear from me again, please <a href='http://infinite-stream-5194.herokuapp.com/optout?m=mmm_EOoEL9&email=wjchong@koofamilies.com' target=_blank>let me know</a>.<img alt="" width="1" height="1" src="http://infinite-stream-5194.herokuapp.com/pixel/mmm_EOoEL9.gif">
+--1ddfac75d52f4669bbeb9de6c9aa9fac--

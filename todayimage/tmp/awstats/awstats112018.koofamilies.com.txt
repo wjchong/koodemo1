@@ -1,0 +1,804 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201811 will be lost/reset.
+# Last config file used to build this data file was /home/koofamilies/tmp/awstats/awstats.koofamilies.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2699                
+POS_VISITOR 13297               
+POS_DAY 20468               
+POS_DOMAIN 3642                
+POS_LOGIN 4084                
+POS_ROBOT 4239                
+POS_WORMS 4895                
+POS_EMAILSENDER 5026                
+POS_EMAILRECEIVER 5169                
+POS_SESSION 21226               
+POS_SIDER 21439               
+POS_FILETYPES 5304                
+POS_DOWNLOADS 5636                
+POS_OS 6078                
+POS_BROWSER 6354                
+POS_SCREENSIZE 7481                
+POS_UNKNOWNREFERER 7555                
+POS_UNKNOWNREFERERBROWSER 7896                
+POS_ORIGIN 8232                
+POS_SEREFERRALS 8378                
+POS_PAGEREFS 8588                
+POS_SEARCHWORDS 8864                
+POS_KEYWORDS 9016                
+POS_MISC 2361                
+POS_ERRORS 9075                
+POS_CLUSTER 3940                
+POS_SIDER_404 9227                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181125114415 887 218364 8958173820112
+FirstTime 20181101034712
+LastTime 20181125080230
+LastUpdate 20181125050819 887 0 887 0 0
+TotalVisits 409                 
+TotalUnique 165                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 178                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 174 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 78 5025828 39 312 1715526
+1 27 88 2148812 48 2175 1161741
+2 224 285 1810678 23 1970 1308179
+3 1590 1809 21314402 127 643 880385
+4 3404 3546 15017330 131 1341 354050
+5 2869 3229 34398488 389 3004 7374548
+6 2637 3135 33754457 121 1415 794328
+7 4030 4482 55970632 392 1859 8298731
+8 5934 6255 39444427 349 1360 2053974
+9 4458 4929 75342630 489 1818 3955317
+10 2597 2986 58774776 308 1662 1936584
+11 1507 1865 37015122 121 2727 1059664
+12 1166 1295 6081147 68 335 196961
+13 2324 2562 20272553 169 893 2236695
+14 2134 2304 8870955 60 1120 588925
+15 2287 2516 15710388 138 824 1168284
+16 1212 1257 2052851 50 112 168465
+17 11 32 665418 14 26 22216
+18 4 25 72895 23 28 6350
+19 56 130 9092835 19 33 165860
+20 14 44 2817129 14 32 30612
+21 10 10 181320 28 69 2526252
+22 0 0 0 14 400 1545540
+23 24 103 2566817 11 39 33702
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+in 24226 25704 216145290
+my 10413 11416 62587918
+id 2846 2846 2340671
+us 665 2057 130386609
+ru 289 680 27538644
+es 52 118 2111261
+ae 11 31 3684485
+pk 10 50 1865038
+kr 9 10 198216
+nl 8 8 0
+bd 6 26 561121
+cn 4 17 609838
+nz 2 2 1655
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+checker 995 5967739 20181118065310 551
+Googlebot/ 104 5510044 20181118065250 2
+YandexBot/ 27 306750 20181118065251 0
+Google[\x20]Web[\x20]Preview 23 919098 20181104090411 0
+bingpreview 17 2366147 20181113223439 0
+Dalvik/ 17 3379524 20181111124042 0
+bingbot/ 12 1455240 20181113223420 0
+unknown 4 224 20181118125837 4
+Uptimebot/ 2 0 20181114130817 0
+curl 1 0 20181115070237 0
+Baiduspider/ 1 0 20181114085132 0
+no_user_agent 1 16659 20181111083236 0
+robot 1 16659 20181112162501 0
+DomainSONOCrawler/ 1 16659 20181110142310 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+php 33617 27968076 0 0
+ttf 3 397054 0 0
+jpg 565 44096680 0 0
+Unknown 4222 60323151 0 0
+png 881 62354613 0 0
+jpeg 12 1212700 0 0
+txt 10 770 0 0
+css 1728 128581269 0 0
+js 1228 98896046 0 0
+woff 19 1346580 0 0
+html 315 3013723 0 0
+json 6 4016 0 0
+woff2 359 19464924 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/.well-known/pki-validation/2E6FB95BAF22E4F3203EC24E0718229C.txt 2 0 154
+/.well-known/pki-validation/1475CADF837876D9D8121A430CF39184.txt 2 0 154
+/.well-known/pki-validation/AB61285BFF8D98BF237599A370080597.txt 2 0 154
+/.well-known/pki-validation/58CF59AEDA102C22A7334F30D9BCD6E9.txt 2 0 154
+/.well-known/pki-validation/FBFF7911E2290A3AEF7E8EDEE2B076BE.txt 2 0 154
+/notification.mp3 0 8 371144
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+winxp 4 2
+win7 563 205
+linuxubuntu 1 1
+Unknown 2886 2875
+ios_ipad 1 1
+win8 1 1
+win2003 11 4
+ios_iphone 2037 1920
+linux 20362 19704
+macosx10 1 1
+macosx 31 11
+win10 13390 12309
+winlong 5 5
+linuxandroid 3680 1502
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 51
+chrome70.0.3538.64 27 7
+firefox62.0 62 28
+android 11 11
+Unknown 2886 2875
+chrome37.0.0.0 1 0
+chrome69.0.3464.0 1 1
+safari11.0 1 1
+chrome65.0.3325.109 1170 408
+netscape5.0 15 15
+msie7.0 11 4
+chrome53.0.2785.49 4 0
+chrome39.0.2171.95 1 0
+chrome70.0.3538.80 1229 567
+chrome57.0.2987.108 22 3
+chrome30.0.0.0 89 30
+firefox41.0 1 1
+chrome68.0.3440.91 83 45
+firefox60.0 12 2
+edge17 9 1
+chrome50.0.2661.89 23 3
+chrome59.0.3071.125 31 11
+firefox58.0 89 29
+safari12.0 43 13
+msie6.0 3 1
+safari10.0 27 8
+chrome64.0.3282.137 3 1
+chrome70.0.3538.77 3252 2461
+firefox34.0 5 5
+chrome61.0.3163.128 69 11
+firefox59.0 1 1
+chrome69.0.3497.100 20024 19439
+chrome41.0.2272.118 236 74
+chrome51.0.2704.79 1 1
+opera37.0.2192.110129 26 6
+iphone 5 3
+chrome46.0.2490.80 69 14
+chrome71.0.3559.0 155 108
+chrome31.0.1650.57 1 1
+safari7.0 1962 1896
+firefox33.0 7 7
+chrome66.0.3359.181 5 5
+firefox31.0 1 1
+chrome68.0.3440.85 37 10
+firefox64.0 315 100
+firefox63.0 119 56
+chrome49.0.2623.75 3 3
+chrome70.0.3538.102 10605 10170
+chrome70.0.3538.110 167 87
+chrome56.0.2924.87 35 15
+msie8.0 18 2
+chrome33.0.0.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+python-requests/2.18.4 20181114214616
+COMODO_DCV 20181112080822
+Go-http-client/1.1 20181118063727
+okhttp/3.8.0 20181102144328
+okhttp/3.3.0 20181105103353
+WhatsApp/2.18.61_i 20181101055309
+jonassebastianohlsson.com/criticalpathcssgenerator 20181116062558
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Go-http-client/1.1 20181118063727
+COMODO_DCV 20181112080822
+python-requests/2.18.4 20181114214616
+jonassebastianohlsson.com/criticalpathcssgenerator 20181116062558
+WhatsApp/2.18.61_i 20181101055309
+okhttp/3.3.0 20181105103353
+okhttp/3.8.0 20181102144328
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3570 3997
+From1 5 5
+From2 8 8
+From3 60 60
+From4 34898 38903
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_co_kr 2 2
+bing 1 1
+www_google_co_in 4 4
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.responsinator.com 50 50
+https://uptime.com/www.koofamilies.com 8 8
+http://kooexchange.com/demo/merchant_find.php 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 7430 2026916
+500 36 0
+302 13842 12690707
+206 30 4641311
+404 1386 173534
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 82
+/74114079 1 http://google.com
+/chat/assets/js/emojionearea.js 28 http://koofamilies.com/chat/chat.php
+/xmlrpc.php 1 -
+/images/product_images/20181009_070417.jpg 6 -
+/admin_panel/Dashboard_files/MaterialIcons-Regular.woff 165 http://koofamilies.com/admin_panel/Dashboard_files/material-icons.css
+/admin_panel/Dashboard_files/slick-theme.min.css.map 20 -
+/64633143 1 http://google.com
+/28967442 1 http://google.com
+/Dashboard_files/underscore-min.map 8 -
+/77650268 1 http://google.com
+/74171067 1 http://google.com
+/manager/index.php 1 http://koofamilies.com/manager/index.php
+/chat/assets/js/maps/swiper.min.js.map 2 -
+/admin_panel/Dashboard_files/popper.min.js.map 20 -
+/sendbird/chat/424 5 -
+/admin_panel.php 2 -
+/Dashboard_files/daterangepicker.min.css.map 8 -
+/admin_panel/Dashboard_files/slick.min.css.map 20 -
+/64882802 1 http://google.com
+/52812583 1 http://google.com
+/Dashboard_files/slick-theme.min.css.map 8 -
+/90590437 1 http://google.com
+/96148952 1 http://google.com
+/Dashboard_files/mejs-controls.svg 13 http://koofamilies.com/Dashboard_files/mediaelementplayer.min.css
+/browserconfig.xml 9 http://google.com
+/22223206 1 http://google.com
+/chat/assets/css/emojionearea.css 21 http://koofamilies.com/chat/chat.php
+/31395285 1 http://google.com
+/suberror 1 -
+/904993 1 http://google.com
+/admin_panel/fonts/fontawesome-webfont.ttf 113 http://koofamilies.com/admin_panel/Dashboard_files/font-awesome.min.css
+/62970458 1 http://google.com
+/88996416 1 http://google.com
+/admin_panrl 1 -
+/Dashboard_files/metisMenu.js.map 8 -
+/Dashboard_files/slick.min.css.map 8 -
+/robots.txt 154 -
+/Dashboard_files/popper.min.js.map 8 -
+/admin_panel/Dashboard_files/metisMenu.js.map 20 -
+/chat/assets/js/jquery.min.map 2 -
+/sendbird/chat.html 1 -
+/admin_panel/fonts/fontawesome-webfont.woff2 113 http://koofamilies.com/admin_panel/Dashboard_files/font-awesome.min.css
+/66819949 1 http://google.com
+/chat/%7B%7Broute('UserProfile')%7D%7D 1 http://www.koofamilies.com/chat/chat.php
+/26303126 1 http://google.com
+/sendbird/web-basic-sample-localcache/ 1 -
+/46333697 1 http://google.com
+/admin_panel/Dashboard_files/MaterialIcons-Regular.ttf 165 http://koofamilies.com/admin_panel/Dashboard_files/material-icons.css
+/sendbird/chat/514 3 -
+/Dashboard_files/daterangepicker.min.js.map 8 -
+/admin_panel/Dashboard_files/underscore-min.map 20 -
+/INDEX.PHP 1 http://google.com
+/admin_panel/Dashboard_files/MaterialIcons-Regular.woff2 166 http://koofamilies.com/admin_panel/Dashboard_files/material-icons.css
+/admin_panel/fonts/fontawesome-webfont.woff 113 http://koofamilies.com/admin_panel/Dashboard_files/font-awesome.min.css
+/KOOBER/uploads/images/ace.png 2 http://koofamilies.com/KOOBER/admin/view_page/vehicle_list
+/84613041 1 http://google.com
+/33103340 1 http://google.com
+/admin_panel/Dashboard_files/daterangepicker.min.css.map 20 -
+/42742452 1 http://google.com
+/test_error_page_url/ 36 http://google.com
+/KOOBER/uploads/images/407.png 2 http://koofamilies.com/KOOBER/admin/view_page/vehicle_list
+/44504875 1 http://google.com
+/95096449 1 http://google.com
+/38640631 1 http://google.com
+/81460360 1 http://google.com
+/admin_panel.pho 1 -
+/87427650 1 http://google.com
+/69109381 1 http://google.com
+/index.html 21 http://google.com
+/55010977 1 http://google.com
+/98180357 1 http://google.com
+/KOOBER/uploads/images/USER_IMG47075.png 2 http://koofamilies.com/KOOBER/admin/view_page/vehicle_list
+/68007018 1 http://google.com
+/25862603 1 http://google.com
+/86083459 1 http://google.com
+/99135440 1 http://google.com
+/25107846 1 http://google.com
+/16216281 1 http://google.com
+/admin_panel/community_member.php 2 http://koofamilies.com/admin_panel/merchant.php
+/sub-domian.php 1 -
+/admin_panel/Dashboard_files/daterangepicker.min.js.map 20 -
+/29236552 1 http://google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 178
+203.223.190.83 21833 22513 125700997 20181124114836
+113.210.180.133 3461 3461 8092 20181117062732
+115.166.143.214 2846 2846 2340671 20181102144328
+113.210.51.139 2312 2312 21676 20181116044616
+118.100.91.123 2021 2105 2328399 20181120112100
+113.210.107.216 2003 2115 8749472 20181115165258
+106.223.49.176 1734 1814 10413487 20181112102217
+106.223.160.165 213 237 9150167 20181115054547
+217.74.124.144 208 475 21013840 20181122163350
+113.210.123.72 161 234 14931252 20181114135540
+64.233.173.170 156 453 24269870 20181125080228
+64.233.173.166 141 427 34682301 20181123035818
+64.233.173.168 139 410 28266780 20181124233417
+115.132.102.90 135 237 7686515 20181111073338
+106.223.141.107 88 232 35043235 20181114110528
+217.74.124.113 74 199 6466796 20181107050131
+106.223.215.59 56 111 6401219 20181113094237
+62.117.152.195 52 118 2111261 20181120235624
+106.223.65.242 42 66 4531632 20181115083724
+125.99.166.128 41 85 5239012 20181113064049
+223.189.68.74 35 77 1122203 20181124104029
+113.210.117.16 31 42 353218 20181112053608
+113.210.49.102 28 28 34637 20181120152705
+103.228.193.22 28 93 1923913 20181123054756
+106.223.233.130 24 27 351330 20181116062907
+64.233.172.142 1 1 5076 20181112055353
+113.210.75.47 0 1 42057 
+204.13.201.140 0 5 450102 
+113.210.116.157 4 23 561339 20181120063403
+42.107.251.215 3 18 284229 20181120194743
+113.210.100.41 9 29 579766 20181124103134
+159.203.81.93 2 2 49263 20181113052905
+198.12.128.2 3 21 2001298 20181115030132
+64.233.173.26 7 44 1202451 20181121041200
+34.203.219.58 2 2 95985 20181115154508
+103.231.6.9 1 18 538720 20181102084346
+159.203.42.143 2 2 16659 20181113052905
+106.207.187.133 0 3 1758788 
+107.170.96.6 1 1 17455 20181118114645
+52.114.6.38 10 10 131706 20181120135733
+106.223.222.10 20 51 1610078 20181101063638
+119.159.148.176 10 50 1865038 20181107145815
+182.64.46.162 1 1 8351 20181116080932
+183.171.75.16 10 10 5964 20181120135713
+38.100.21.69 4 11 566075 20181114145150
+110.75.248.171 0 1 1674 
+42.106.7.86 1 1 33901 20181120030653
+109.201.138.229 1 1 0 20181117034643
+113.210.53.194 5 15 267328 20181102081007
+46.229.66.54 1 1 4938 20181120061606
+59.90.30.209 5 27 594894 20181119124303
+138.197.202.197 1 1 0 20181113052909
+66.249.93.75 21 38 422075 20181118065250
+121.65.56.118 6 6 162459 20181114214616
+66.249.93.38 9 39 5702716 20181115081401
+106.207.232.114 9 11 176988 20181121012150
+109.201.154.212 1 1 0 20181117211758
+54.185.185.93 1 1 16659 20181113142443
+64.233.173.21 5 47 1957267 20181105061251
+34.222.2.28 1 1 4938 20181118003547
+183.171.71.172 6 6 4576 20181120154400
+61.129.6.147 1 10 341793 20181122061015
+106.223.165.80 3 3 17486 20181102031427
+113.210.97.28 7 7 4417 20181101152535
+106.207.138.131 6 31 633590 20181118114646
+223.189.151.180 7 29 181097 20181120192614
+40.74.255.63 1 1 0 20181114082213
+113.210.201.147 2 2 1367 20181120063054
+49.44.86.203 4 22 2080320 20181110104258
+145.255.0.179 1 1 4938 20181120063514
+113.210.178.116 4 4 3341 20181107084156
+46.166.190.156 1 1 0 20181118063727
+204.13.201.139 1 8 811995 20181113143501
+18.237.187.166 1 1 16659 20181114135036
+46.166.190.145 1 1 0 20181117000037
+198.12.128.3 4 22 2017956 20181113064815
+183.171.81.125 3 3 17470 20181119093105
+113.210.48.177 2 2 1332 20181120192658
+72.220.19.14 11 31 966285 20181106004049
+42.109.156.9 1 1 16833 20181114134234
+72.14.199.189 1 1 17327 20181116045633
+106.207.254.46 2 2 1463 20181106125131
+66.249.93.73 10 31 327614 20181117151809
+183.171.86.106 10 13 55564 20181124124252
+110.75.248.20 0 1 84384 
+183.171.185.32 4 4 8 20181117070636
+113.210.185.155 2 2 1488 20181121040617
+66.102.7.228 1 1 5076 20181104090406
+207.241.225.217 3 3 0 20181118033241
+46.166.186.227 1 1 0 20181116134158
+207.241.230.164 1 1 0 20181114105643
+110.75.248.196 0 1 2959 
+52.43.194.158 1 1 16659 20181112154209
+113.210.53.126 20 35 475077 20181120082832
+109.201.138.231 1 1 0 20181117165135
+64.246.165.140 1 1 16659 20181113203945
+106.223.213.198 0 5 559065 
+113.210.198.154 2 2 6 20181108051429
+113.210.50.192 2 2 1429 20181120234516
+157.37.134.53 7 27 949898 20181103205632
+34.211.149.78 1 1 16659 20181111150737
+66.102.9.14 1 1 17464 20181101131640
+113.210.199.156 21 50 1094283 20181125043045
+162.243.69.215 1 1 22617 20181113064042
+175.138.188.219 3 23 509372 20181123113227
+106.207.132.141 1 17 545846 20181102022213
+113.210.55.66 18 54 1018786 20181104024040
+5.129.97.75 1 1 4938 20181120055727
+52.114.14.102 5 5 44906 20181118112557
+188.72.95.56 1 1 16659 20181111141423
+86.99.110.29 5 15 1833913 20181113202955
+5.31.208.99 6 16 1850572 20181114082151
+110.75.248.245 0 1 32723 
+49.207.180.40 7 7 5255 20181105103353
+183.171.87.74 2 2 1730 20181125080230
+157.37.178.71 4 4 135604 20181119122016
+113.210.194.222 6 26 950354 20181105073736
+113.210.98.115 2 2 6 20181108053653
+207.241.225.215 1 1 0 20181116050719
+113.210.101.177 2 2 6 20181114062654
+175.141.245.220 3 23 509372 20181122060917
+106.207.181.60 7 28 966211 20181110060533
+204.13.201.137 0 2 14646 
+54.186.178.251 1 1 16659 20181113153805
+139.167.253.175 5 24 882819 20181103142145
+103.61.255.123 1 1 499 20181118033236
+66.249.93.42 7 47 7709961 20181115081400
+103.230.104.52 6 26 561121 20181115173937
+113.210.73.217 15 35 617387 20181118112654
+64.233.173.20 10 52 2054056 20181105061252
+223.189.65.177 4 24 509865 20181117122040
+46.166.190.166 1 1 0 20181118063008
+113.210.123.81 15 55 1140532 20181125032442
+157.50.72.148 6 6 474 20181112102636
+106.223.1.114 21 46 2268912 20181114061353
+192.162.102.25 1 1 16659 20181114053913
+66.249.93.40 6 46 6210619 20181115081403
+147.158.244.117 2 2 1655 20181104142406
+113.210.193.211 6 6 2937 20181101055408
+64.233.173.27 10 46 988167 20181125043043
+42.107.235.23 3 8 52305 20181121005342
+111.118.248.132 13 68 2771624 20181112053455
+115.135.104.127 6 26 948795 20181110044614
+46.164.228.204 1 1 4938 20181120065701
+110.75.248.57 1 1 17461 20181119054540
+106.223.31.77 7 27 562458 20181122091328
+115.164.200.83 1 3 2763997 20181115051646
+113.210.200.117 0 1 42057 
+64.202.160.161 2 12 1783936 20181115005929
+176.49.50.225 1 1 4938 20181120053631
+175.196.68.72 3 4 35757 20181116052102
+203.205.219.187 2 2 128844 20181112082021
+42.111.1.162 1 1 17464 20181101055309
+204.13.201.138 0 2 295497 
+113.210.67.76 4 23 510833 20181116053549
+113.210.116.28 8 8 5666 20181121061929
+109.201.154.135 1 1 0 20181117093930
+52.27.218.77 1 1 16659 20181110114728
+66.249.93.77 21 35 403241 20181117151707
+49.44.86.196 0 1 18534 
+113.210.199.190 4 4 2679 20181121122642
+113.210.97.124 12 32 598221 20181119060034
+183.171.71.130 3 3 17470 20181118082921
+157.39.246.5 1 2 19448 20181116090643
+113.210.50.28 4 241 12377517 20181113080308
+138.68.175.225 2 3 27799 20181116062558
+113.210.103.125 2 12 612576 20181105061251
+113.210.176.180 3 3 19128 20181107130857
+64.233.173.22 12 42 1417026 20181105061249
+183.171.73.90 5 24 882803 20181101234658
+113.210.123.104 5 6 17484 20181109121049
+183.171.75.128 3 3 2742 20181123035819
+113.210.99.4 16 55 1805395 20181108051119
+208.87.233.140 1 3 361893 20181113143503
+42.107.225.241 4 5 53319 20181125045512
+166.62.120.154 0 10 770 
+157.51.114.60 7 26 2192820 20181110104450
+64.233.173.28 11 39 748065 20181125015844
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20181101 141 311 8484249 17
+20181102 2825 2878 4535109 10
+20181103 57 206 6492803 10
+20181104 22 103 3835854 10
+20181105 40 122 3986178 11
+20181106 52 193 5951145 13
+20181107 35 101 3372166 12
+20181108 26 66 2004353 9
+20181109 19 41 1036533 7
+20181110 131 260 13752175 12
+20181111 177 334 21392160 13
+20181112 12804 13553 110623026 19
+20181113 162 579 36719465 23
+20181114 2393 2838 100302248 27
+20181115 11133 11640 90311601 21
+20181116 5867 5939 2192083 23
+20181117 2010 2096 2228525 19
+20181118 104 319 5985865 32
+20181119 38 119 2561794 14
+20181120 334 800 13723879 56
+20181121 34 75 1373922 18
+20181122 19 68 1601774 9
+20181123 12 52 1122850 6
+20181124 63 148 2419988 9
+20181125 43 124 2392145 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 27
+2mn-5mn 22
+30s-2mn 16
+30mn-1h 27
+5mn-15mn 20
+15mn-30mn 29
+0s-30s 268
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 158
+/functions.php 32103 527854 8 12
+/KOOBER/webservice/update_location 2804 2293672 0 1
+/chat/functions.php 459 314211 45 85
+/chat/chat.php 275 4771849 121 58
+/orderview.php 249 7623443 0 1
+/ 237 2848290 73 56
+/chat/assets/fonts/roboto/Roboto-Regular.woff2 101 4874364 20 22
+/chat/assets/fonts/roboto/Roboto-Medium.woff2 100 4921952 18 19
+/admin_panel/merchants.php 90 2116506 0 2
+/chat/assets/fonts/roboto/Roboto-Bold.woff2 81 3948104 11 32
+/login.php 53 4196998 3 13
+/dashboard.php 50 821110 3 2
+/cpanel 48 1627248 33 29
+/sub-domian.php 45 9720 5 3
+/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2 43 3317880 3 3
+/admin_panel/user.php 37 1586844 1 0
+/Dashboard_files/theme.js.download 31 960797 0 3
+/sample_find.php 30 1883740 0 0
+/admin_panel/login.php 29 152214 11 4
+/Dashboard_files/css 27 93150 1 0
+/Dashboard_files/css(1) 27 316440 0 0
+/Dashboard_files/css(2) 27 197991 1 0
+/KOOBER/webservice/get_profile 27 24229 4 2
+/Dashboard_files/modernizr.min.js.download 26 255319 0 0
+/Dashboard_files/mediaelementplayer.min.js.download 26 2821342 0 0
+/structure_merchant.php 3 51325 0 0
+/admin_panel/image_upload.php 1 36 0 0
+/view_merchant.php 9 275630 0 1
+/sendbird/web-basic-sample-localcache/ 5 10159 1 1
+/referral_list.php 1 32510 0 0
+/merchant_find.php 7 459723 1 2
+/admin_panel/Dashboard_files/jquery.waypoints.min.js.download 14 123662 0 0
+/Dashboard_files/widgets.js.download 24 347785 0 0
+/Dashboard_files/raphael.min.js.download 24 1934284 0 1
+/admin_panel/recharge.php 1 13312 0 0
+/admin_panel/Dashboard_files/jquery.magnific-popup.min.js.download 14 283024 0 0
+/admin_panel/view_sub.php 7 158124 0 0
+/KOOBER/webservice/login 5 3278 1 0
+/Dashboard_files/excanvas.js.download 24 553765 0 0
+/public-profile-merchnat.php 1 31528 0 0
+/admin_panel/transaction.php 14 598724 0 2
+/admin_panel/Dashboard_files/underscore-min.js.download 14 230286 0 0
+/KOOBER/admin/dashboard 1 39924 0 0
+/admin_panel/Dashboard_files/css(2) 17 124661 0 0
+/guest_user.php 1 39532 0 0
+/chat/assets/fonts/roboto/Roboto-Light.woff 3 186948 0 0
+/admin_panel/sub_del.php 5 5 0 0
+/Dashboard_files/jquery.knob.min.js.download 25 234100 1 0
+/KOOBER/assets/fonts/ioniconsaa26.ttf 2 329096 0 1
+/admin_panel/Dashboard_files/moment.min.js.download 14 720510 0 0
+/admin_panel/Dashboard_files/bootstrap.min.js.download 14 716002 0 0
+/rating_list.php 8 139924 1 1
+/Dashboard_files/jquery-ui.min.js.download 24 5159856 0 1
+/admin_panel/request.php 1 22484 0 0
+/Dashboard_files/jquery.waypoints.min.js.download 25 190150 0 0
+/admin_panel/Dashboard_files/jquery.knob.min.js.download 14 151256 0 0
+/admin_panel/bankdatalil.php 4 1308 1 2
+/kType.php 1 21027 0 0
+/admin_panel/Dashboard_files/jquery.min.js.download 15 1299885 0 0
+/admin_panel/Dashboard_files/css(1) 17 199240 0 0
+/admin_panel/update_subs.php 25 0 0 1
+/KOOBER/webservice/signup 2 964 2 1
+/Dashboard_files/custom.js.download 25 1214245 0 3
+/KOOBER/admin 3 15228 3 2
+/admin/ 5 24690 5 5
+/order_place.php 2 29885 0 2
+/admin_panel/merchant.php 17 438881 0 0
+/admin_panel/Dashboard_files/mithril.js.download 14 640192 0 0
+/admin_panel/charges.php 1 12346 0 0
+/admin_panel/user_edit.php 2 28686 0 1
+/chat/assets/fonts/roboto/Roboto-Regular.woff 4 246944 0 1
+/chat/assets/fonts/roboto/Roboto-Medium.ttf 1 67958 0 1
+/orderlist.php 16 526864 0 0
+/admin_panel/referral_member.php 1 26170 0 0
+/Dashboard_files/underscore-min.js.download 24 341756 0 0
+/Dashboard_files/metisMenu.min.js.download 25 125855 0 0
+/sendbird/chat/ 10 13203 3 4
+/sendbird/web-basic-sample-localcache/chat.html 11 8280 1 3
+/Dashboard_files/pace.min.js.download 26 284357 1 0
+/admin_panel/Dashboard_files/modernizr.min.js.download 15 166260 0 0
+/admin_panel/Dashboard_files/clndr.min.js.download 14 322042 0 0
+/KOOBER/webservice/get_accepted_request 1 81 0 0
+/SendBird-JavaScript-master/ 1 6530 0 0
+/admin_panel/wallet.php 1 16855 0 0
+/admin_panel/merchant_edit.php 4 66005 0 0
+/admin_panel/Dashboard_files/widgets.js.download 14 242060 0 0
+/merchant_product.php 1 16839 0 0
+/Dashboard_files/jquery.min.js.download 26 1970529 1 0
+/KOOBER/assets/fonts/fontawesome-webfont93e3.woff2 2 128928 0 0
+/chat/assets/fonts/roboto/Roboto-Medium.woff 4 251920 1 0
+/admin_panel/add_sub.php 3 45375 0 0
+/admin_panel/Dashboard_files/sweetalert2.min.js.download 15 339255 1 1
+/KOOBER/admin/view_page/user_list 1 26177 0 0
+/admin_panel/Dashboard_files/utils.js.download 14 36344 0 0
+/admin_panel/Dashboard_files/custom.js.download 14 818678 0 1
+/Dashboard_files/jquery.magnific-popup.min.js.download 25 441050 0 0
+/admin_panel/Dashboard_files/jquery.sparkline.min.js.download 14 605458 0 0
+/index.php 19 312659 3 4
+/admin_panel/fonts/fontawesome-webfont.woff2 4 231480 0 0
+/admin_panel/Dashboard_files/excanvas.js.download 14 378630 0 0
+/sendbird/chat.html 1 2070 0 0
+/profile_merchant.php 8 269873 0 0
+/Dashboard_files/jquery.sparkline.min.js.download 24 886793 0 0
+/about_menu.php 5 84365 1 0
+/KOOBER/assets/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/Dashboard_files/bootstrap.min.js.download 26 1138903 0 0
+/admin_panel/sub_edit.php 1 349 0 0
+/Dashboard_files/Chart.min.js.download 25 3176540 0 0
+/sendbird/chat/chat.html 23 48720 8 8
+/yourwebsite_folder/ 1 1146 0 0
+/admin_panel/Dashboard_files/theme.js.download 14 674282 0 0
+/SendBird-JavaScript-master/web-basic-sample/ 1 2338 0 0
+/admin_panel/Dashboard_files/jquery-ui.min.js.download 14 3551366 0 0
+/Dashboard_files/jquery.counterup.min.js.download 25 24225 0 0
+/admin/index.php 1 4938 1 1
+/admin_panel/Dashboard_files/morris.min.js.download 14 499128 0 0
+/qrcode/qrcode.php 13 80326 0 0
+/KOOBER/webservice/get_driver_list_nearbuy 20 27310 1 4
+/Dashboard_files/perfect-scrollbar.jquery.js.download 25 991085 0 0
+/admin_panel/Dashboard_files/Chart.bundle.min.js.download 14 2822008 0 0
+/admin_panel/Dashboard_files/daterangepicker.min.js.download 14 489440 0 1
+/chat/node_modules/ 2 28322 0 2
+/chat/assets/fonts/roboto/Roboto-Thin.woff 3 184884 0 0
+/admin_panel/Dashboard_files/perfect-scrollbar.jquery.js.download 14 661696 0 0
+/sub.php 3 49707 0 0
+/admin_panel/Dashboard_files/popper.min.js.download 14 268912 0 0
+/admin_panel/Dashboard_files/Chart.min.js.download 14 2081562 0 0
+/admin_panel/Dashboard_files/mediaelementplayer.min.js.download 14 1775718 0 0
+/KOOBER/assets/fonts/Material-Design-Iconic-Fontf700.woff 2 287256 0 0
+/auto_complete.php 3 87 0 0
+/Dashboard_files/mithril.js.download 25 971240 0 0
+/Dashboard_files/slick.min.js.download 24 847957 0 0
+/Dashboard_files/clndr.min.js.download 24 462877 0 0
+/chat/ 9 7165 7 2
+/Dashboard_files/Chart.bundle.min.js.download 25 4332845 0 0
+/KOOBER/webservice/update_profile 1 809 0 0
+/admin_panel/contact.php 1 15303 0 0
+/fonts/fontawesome-webfont.woff2 26 2006160 0 0
+/admin_panel/Dashboard_files/jquery.counterup.min.js.download 14 14938 0 0
+/manifest.json 6 4016 0 0
+/SendBird-JavaScript-master/web-live-chat/ 1 2140 0 0
+/sendbird/ 8 10670 0 0
+/Dashboard_files/sweetalert2.min.js.download 25 488625 0 0
+/admin_panel/Dashboard_files/slick.min.js.download 14 587342 0 0
+/Dashboard_files/moment.min.js.download 24 1062955 0 0
+/admin_panel/Dashboard_files/raphael.min.js.download 14 1305514 0 0
+/Dashboard_files/utils.js.download 25 57060 0 0
+/admin_panel/sub_update.php 1 0 0 0
+/Dashboard_files/popper.min.js.download 26 437993 0 0
+/Dashboard_files/morris.min.js.download 24 727483 0 0
+/admin_panel/subscribe.php 4 81044 0 0
+/admin_panel/Dashboard_files/pace.min.js.download 15 187605 1 0
+/about.php 1 11838 0 1
+/admin_panel/Dashboard_files/css 17 58650 1 0
+/Dashboard_files/daterangepicker.min.js.download 24 701205 0 0
+/KOOBER/admin/view_page/vehicle_list 2 56770 1 1
+/chat/assets/fonts/roboto/Roboto-Bold.woff 3 188628 0 0
+/admin_panel/Dashboard_files/metisMenu.min.js.download 14 81298 0 0
+END_SIDER
