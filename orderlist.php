@@ -1,6 +1,6 @@
 <?php
    include("config.php");
-   
+	$me="orderlist";
 	if($_SESSION['new_order']=="y")
 	{
 	   $new_order="y";
@@ -1035,8 +1035,8 @@ input[name='p_total[]'],input[name='p_price[]']{
       <main class="main-wrapper clearfix" style="min-height: 522px;">
          <div class="row" id="main-content" style="padding-top:25px">
          <div class="well">.
-		  <a style="text-align:center;width:100%;" href="https://play.google.com/store/apps/details?id=com.koobigfamilies.app" target="blank">
-					<img style="max-width:140px;" src="google.png" alt=""></a>
+		  <!-- <a style="text-align:center;width:100%;" href="https://play.google.com/store/apps/details?id=com.koobigfamilies.app" target="blank">
+					<img style="max-width:140px;" src="google.png" alt=""></a> -->
             <h3>Order list</h3>
             <?php
                $dt = new DateTime();

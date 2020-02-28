@@ -1,9 +1,7 @@
 <?php
-
 header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
 header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
-
 include("config.php");
 include_once('php/Section.php');
 // include_once('php/SectionTable.php');
@@ -16,7 +14,6 @@ if(!empty($_GET['status'])){
 $mobile_otp_verify="n"; 
 // print_r($_SESSION);
 // die;
-
 if(isset($_GET['code']) && isset($_GET['id']) && is_numeric($_GET['id']))
 {
 	// print_r($_GET);
@@ -924,6 +921,10 @@ input[name='p_total[]'],input[name='p_price[]']{
         $merchant_detail = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM users WHERE id='".$id."'"));
 		// print_r($merchant_detail);
 		// die;
+		if($merchant_detail['id']=='')
+		{
+			header("location:merchant_find.php");
+		}
 		if($merchant_detail['id']=='5062')
 		{
 			$back_url=$_SERVER['HTTP_REFERER'];
@@ -1155,23 +1156,29 @@ input[name='p_total[]'],input[name='p_price[]']{
 					<?php if($stallcount>0){ ?>
 					 <div class="rating_menuss"><a class="merchant_ratings" onclick="our_stall()">Our Stalls </a></div>
 					 <?php } ?>
-                    <?php if(isset($_SESSION['invitation_id']) && (!isset($_SESSION['login']))){?>
+                    
                     <!--a class="col-md-2" href="signup.php?invitation_id=<?php echo $_SESSION['invitation_id'];?>"><img src="img/join-us.jpg" style="width: 100px;"></a!-->
                     <a class="col-md-2 rating_menuss" href="signup_referral.php?m_id=<?php echo $merchant_detail['id']; ?>"><?php echo "ADD MEMBER"; ?></a>
 					
-                    <?php }?>
+                  
                     </div>
 					
-				  <!-- <div class="clear"></div>
-				  <a style="text-align:center;width:100%;margin-top:2%;" href="https://play.google.com/store/apps/details?id=com.koobigfamilies.app" target="blank">
+				  <div class="clear"></div>
+				  <a style="text-align:center;width:100%;margin-top:2%;" href="https://play.google.com/store/apps/details?id=com.app.koofamily" target="blank">
 					<img style="max-width:140px;" src="google.png" alt=""></a>
-				  <div class="clear"></div> -->
+				  <div class="clear"></div>
                     
                     </div>
                       <p style="color:red;" id="error_label"></p>
                     
                     <div class="col-md-12 row favorite" style="margin-left:15px; margin-bottom: 10px; padding-left:0px;" >
                     <div style="clear:both;">
+					<?php 
+					if($merchant_detail['mobile_number']==''){?>
+						<script>
+						window.location.replace("https://www.koofamilies.com/merchant_find.php");
+						</script>
+					<?php }?>
                     <h4 class="favorite_name" style="display: inline-blick;">
                       <a href="https://api.whatsapp.com/send?phone=<?php  echo $merchant_detail['mobile_number']?>" target="_blank">Chat with <?php echo $merchant_detail['name']; ?>
 					<img src="images/whatapp.png" style="max-width:40px;"/></a>
@@ -1326,7 +1333,7 @@ input[name='p_total[]'],input[name='p_price[]']{
         <form id="order_place" action="order_cash.php" method="post">
         <?php } ?>
         
-       <table class="table table-striped" id="cartsection">
+       <table class="table table-striped" id="cartsection" style="width:100%;">
         <thead>
         <tr> 
         <th></th>
@@ -1362,12 +1369,14 @@ input[name='p_total[]'],input[name='p_price[]']{
 		?>
         <div class="location_merchant"> 
 		<div style="<?php if($all_blank=="y"){ echo "display:none;";} ?>">
-		  <div class="row" style="max-width: 50%;min-height: 41px;margin-bottom: 2%;padding-bottom: 1%;">
-			<div class="col-md-4 merchant_select" style="font-weight: bold; border-right: 1px solid black; padding-top: 2%;padding-bottom:1%; background: grey none repeat scroll 0% 0%; color: rgb(255, 255, 255);">Takein</div>
-			<div class="col-md-4 divert" style="font-weight: bold; padding-top: 2%;padding-bottom:1%;background: rgb(81, 210, 183) none repeat scroll 0% 0%; color: rgb(85, 85, 85);">Dive In</div>
-		</div>
+			 <div class="row" style="max-width: 50%;min-height: 41px;margin-bottom: 2%;padding-bottom: 1%;margin-left:2%;">
+				<div class="col-md-4 merchant_select " style="box-shadow:rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;font-weight: bold; border-right: 1px solid black; padding-top: 2%;padding-bottom:1%; background: red none repeat scroll 0% 0%; color: rgb(255, 255, 255);">
+				<input type="checkbox" id="takeaway_select" checked/> Take away</div>
+				<div class="col-md-4 divert" style="box-shadow:rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;font-weight: bold; padding-top: 2%;padding-bottom:1%;background: rgb(81, 210, 183) none repeat scroll 0% 0%; color: rgb(85, 85, 85);">
+				<input type="checkbox" id="divein"/> Dine in</div>
+			</div>  
         <div class="name_mer">
-          <div style="display:grid;grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center">
+          <div style="display:grid;grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center;>
             <?php $deliver_place="Delivery Place"; ?>
             <label class="head_loca" style="display:grid;align-content:center;text-align:left;"><?php  echo $language['delivery_location']; ?></label>
             <input type="hidden" name="latitude" value="<?php echo $merchant_detail['latitude'];?>">
@@ -1396,8 +1405,7 @@ input[name='p_total[]'],input[name='p_price[]']{
             // End of Hire's code 
             // --------------------
             ?>
-		
-		 <div class="row">
+         <div class="row">
           <div style="float:left;width:80%;margin-left:5%;"> 
 		  <input class="form-control comment" id="mapSearch" name="location" placeholder="location"   style="margin: 0 !important;">   
             </div>
@@ -1410,7 +1418,7 @@ input[name='p_total[]'],input[name='p_price[]']{
 	    
 	 
 </br>
-   <?php if($merchant_detail['mobile_number']=="601159223660"){ ?>
+   <?php if($merchant_detail['mobile_number']=="601159223660" || $merchant_detail['mobile_number']=="60127633363"){ ?>
    <div class="name_remakr">
           <div style="display:grid;grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center;>
            >
@@ -1426,14 +1434,14 @@ input[name='p_total[]'],input[name='p_price[]']{
              
       </div>
       </div>
-	  		  <?php } if($merchant_detail['section_exit'] || $merchant_detail['table_exit']){ ?>
-  <div style="float:left;width:100%;top:0;">
-    <?php if($merchant_detail['section_exit']){ ?>
+	  		  <?php } ?>
+  <div style="float:left;width:100%;top:0;display:none;" id="sec_table_show">   
+   
     
-    <div style="float:left;width:20%;">
+    <div style="float:left;width:20%;display:none;" id="section_show">
         <label><?php echo $language['sections']; ?> <br></label>
              <!--input type="text" class="form-control table" name="section_type" value="<?php echo $section; ?>"/!-->
-        <select name="section_type" 
+        <select name="section_type"  id="section_type"
               class="form-control"  <?php if($merchant_detail['section_required']=="1"){ echo "required='required'";} ?>
               data-table-list-url="<?php echo $site_url; ?>/table_list.php">
        
@@ -1449,9 +1457,9 @@ input[name='p_total[]'],input[name='p_price[]']{
           <?php endforeach; ?>
         </select>
     </div>
-	<?php } if($merchant_detail['table_exit']){ ?>
+	
 
-    <div style="float:left;width:40%;">
+    <div style="float:left;width:40%;display:none;" id="table_show">
            
 
             <label><?php echo $language['show_table_number']; ?></label>
@@ -1462,9 +1470,9 @@ input[name='p_total[]'],input[name='p_price[]']{
     </div>
 	
 		
-	<?php  } ?>
+	
     
-			  </div>   <?php  } ?>
+			  </div>   
    
   </div>
   
@@ -1485,8 +1493,7 @@ input[name='p_total[]'],input[name='p_price[]']{
     <small>
    <?php echo $language['we_can_contact'];  ?>
     </small>
-	<?php if($merchant_detail['sst_rate']>0){ ?>
-	<p style="color:red"> All above prices are subject to <?php echo $merchant_detail['sst_rate']; ?>% SST</p> <?php } ?>
+	
     <small id="mobile_error" style="display: none;color:#e6614f;">
      <?php echo $language['key_in_valid_mobile']; ?>
     </small>
@@ -1551,12 +1558,12 @@ input[name='p_total[]'],input[name='p_price[]']{
    }
    ?>
      <?php if($total_order<5){ ?>
-    <div class="row">
+    <!--div class="row">
       <div class="col-md-4 form-group">
         <input type="text" id="agent_code_input" class="form-control" placeholder="Introduce your agent code..."/>
         <small id="agent_error" style="display:none;color:red;"></small>
 	  </div>
-    </div>
+    </div!-->
 	
    <?php } if($merchant_detail['coupon_offer']){ ?>
 		
@@ -1607,7 +1614,7 @@ input[name='p_total[]'],input[name='p_price[]']{
 				<?php  echo ucfirst(strtolower($deliver_charges_label)); ?>: Rm <span id="order_extra_label"><?php echo number_format($merchant_detail['order_extra_charge'],2); ?></span>
 			</div>
 			  <input type="hidden" name="order_extra_charge" id="order_extra_charge" />
-			  <input type="hidden" name="pickup_type" id="pickup_type" />
+			   <input type="hidden" name="pickup_type" id="pickup_type" />
 			
 		</div>
 		 
@@ -1627,13 +1634,21 @@ input[name='p_total[]'],input[name='p_price[]']{
 				<?php  echo ucfirst(strtolower("Coupon Discount")); ?>: Rm <span class="coupon_discount_amount_value"></span>
 				</div>
 			</div>
+			<div  style="display:none;" class="sst_amount_label">  
+				<div style="grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center;font-weight: bold;font-size: 15px;color:red;">
+					
+				   
+					<?php  echo "Delivery Service tax : "?><?php echo $merchant_detail['sst_rate']." % "; ?>: Rm <span class="sst_amount_value"></span>
+				</div>
+			</div>  
 			<div  style="display:none;" class="final_amount_label">  
 				<div style="grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center;font-weight: bold;font-size: 15px;">
 					
 				   
-					<?php  echo ucfirst(strtolower("Final Amount")); ?>: Rm <span class="final_amount_value"><?php echo number_format($merchant_detail['order_extra_charge'],2); ?></span>
+					<?php  echo ucfirst(strtolower("Payable Amount")); ?>: Rm <span class="final_amount_value"><?php echo number_format($merchant_detail['order_extra_charge'],2); ?></span>
 				</div>
 			</div>
+			
 
 	</div>
  
@@ -2283,6 +2298,7 @@ input[name='p_total[]'],input[name='p_price[]']{
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
+		
      
                           <div class="modal-body">
                                <p style="font-size:18px;">Insufficient balance to pay. Please select other wallet or   <a href="https://api.whatsapp.com/send?phone=<?php  echo $merchant_detail['mobile_number']?>" target="_blank">contact us at whatapp 
@@ -2418,8 +2434,16 @@ input[name='p_total[]'],input[name='p_price[]']{
 					
 					
 					  <div style="clear:both;"></div>
+					  <div  style="display:none;" class="sst_amount_label">  
+						<div style="grid-template-columns:.2fr 2fr;grid-column-gap: 10px;vertical-align: middle;align-content:center;font-weight: bold;font-size: 15px;color:red;">
+							
+						   
+							<?php  echo "SST "?><?php echo $merchant_detail['sst_rate']." % "; ?>: Rm <span class="sst_amount_value"></span>
+							</div>
+						</div>  
+					  <div style="clear:both;"></div>
 					  <span style="display:none;" class="final_amount_label" style="margin-bottom:1%;">
-					     <?php  echo ucfirst(strtolower("Final  Amount")); ?>: Rm <span style="font-weight:bold;" class="final_amount_value"></span>
+					     <?php  echo ucfirst(strtolower("Payable  Amount")); ?>: Rm <span style="font-weight:bold;" class="final_amount_value"></span>
 			
 					 </span>
 					  <div style="clear:both;"></div>
@@ -2601,7 +2625,7 @@ input[name='p_total[]'],input[name='p_price[]']{
              
 							  <div class="passwd_field">
 								<label for="login_password">Please create your password</label>
-								<input type="password" id="login_password" class="form-control" name="login_password"/>
+								<input type="password" id="register_password" class="form-control" name="login_password"/>
 											
 					   <i  onclick="myFunction2()" id="eye_slash_2" class="fa fa-eye-slash" aria-hidden="true"></i>
 					  <span id="eye_pass_2" onclick="myFunction2()" > <?php echo $language['show_password']; ?>  </span>
@@ -3207,7 +3231,7 @@ input[name='p_total[]'],input[name='p_price[]']{
         scrollTop: $("#cartsection").offset().top},
         'slow');  
            
-     $("#test").append("<tr>  <td><button type='button' class='removebutton'>X</button> </td><td><input style='width:120px;' type=text  id='other_product_name_"+other_product_id+"' class='other_product_name'><input type='hidden' name='rebate_amount[]' class='rebate_amount'  id='"+other_product_id+"rebate_amount'><input type='hidden' name='p_id[]' id='other_product_id_"+other_product_id+"'></td> <td><input style='width:50px;' onchange='UpdateTotalCart("+other_product_id+")' id='other_qty_"+other_product_id+"' type=number name='qty[]' min='1' class='product_qty' value='1'></td> <td><input class='other_product_code' style='width:70px;' type= text name='p_code[]' id='other_product_code_"+other_product_id+"'><input type='hidden' name='ingredients'/></td><td> <a href='#remarks_area' role='button' class='introduce-remarks btn btn-large btn-primary' data-toggle='modal'>Remarks</a><input type='hidden' name='extra'></td><td><input style='width:70px;text-align:right;' type='text' name='p_extra' value='0' readonly></td><td><input style='width:70px;' id='other_product_price_"+other_product_id+"' type='text' name='p_price[]' readonly></td><td><input type='text' style='width:70px;' class='p_total' name='p_total[]' readonly  id='"+other_product_id+"_cat_total'></td></tr>");
+     $("#test").append("<tr>  <td><button type='button' class='removebutton'>X</button> </td><td><input style='width:120px;' type=text  id='other_product_name_"+other_product_id+"' class='other_product_name'><input type='hidden' name='rebate_amount[]' class='rebate_amount'  id='"+other_product_id+"rebate_amount'><input type='hidden' name='p_id[]' id='other_product_id_"+other_product_id+"'></td> <td><input style='width:50px;' onchange='UpdateTotalCart("+other_product_id+")' id='other_qty_"+other_product_id+"' type=number name='qty[]' min='1' class='product_qty quatity' value='1'></td> <td><input class='other_product_code' style='width:70px;' type= text name='p_code[]' id='other_product_code_"+other_product_id+"'><input type='hidden' name='ingredients'/></td><td> <a href='#remarks_area' role='button' class='introduce-remarks btn btn-large btn-primary' data-toggle='modal'>Remarks</a><input type='hidden' name='extra'></td><td><input style='width:70px;text-align:right;' type='text' name='p_extra' value='0' readonly></td><td><input style='width:70px;' id='other_product_price_"+other_product_id+"' type='text' name='p_price[]' readonly></td><td><input type='text' style='width:70px;' class='p_total' name='p_total[]' readonly  id='"+other_product_id+"_cat_total'></td></tr>");
     
 	  if(merchant_mobile!="60172669613")
   { 
@@ -3990,36 +4014,97 @@ if($merchant_detail['id']=='5062')
 $start_url=$site_url."/structure_merchant.php?merchant_id=".$merchant_detail['id'];
 else
 $start_url=$site_url."/structure_merchant.php?sid=".$merchant_detail['id'];
+// if($merchant_detail['section_exit'] || $merchant_detail[''])
 ?>
 <script>
 $(document).ready(function(){
 	 // alert(4);
-	 //  search by merchant name 
-	$('.merchant_select').click(function(e) {
+	 var section_check="<?php echo $merchant_detail['section_exit'] ?>";
+	 var table_check="<?php echo $merchant_detail['table_exit'] ?>";
+	 var sst_tax="<?php echo $merchant_detail['sst_rate']?>";
+	 // alert(sst_tax);
+	 // alert(table_check);
+	 if(section_check=='1' || table_check=='1')
+	 {
+		 $('#sec_table_show').show();
+		 if(section_check=='1')
+		 {
+			$('#section_show').show();
+		 }
+		 else
+		 {
+			 $('#section_type').removeAttr('required');
+		 }
+		 
+		 if(table_check=='1')
+		 {
+			$('#table_show').show();
+		  }
+		  else
+		  {
+			   $('#table_type').removeAttr('required');
+		  }   
+	 }
+	 else
+	 {
+		$('#section_type').removeAttr('required'); 
+		$('#table_type').removeAttr('required'); 
+	 }
+	 
+	 $('.merchant_select').click(function(e) {
 		// alert(3);
 		$('.divert').css("background-color", "#51D2B7");
 		$('.divert').css("color", "#555");
 		
-		$(this).css("background-color", "grey");
+		$(this).css("background-color", "red");
 		$(this).css("color", "white");
 		 $('.name_mer').show();
 		 $('#delivery_label').show();
 		 $('#pickup_type').val('takein');
-	});
+		 $("#takeaway_select"). prop("checked", true);
+		 $("#divein"). prop("checked",false);
+		  if(section_check=='1' || table_check=='1')
+		 {
+			 $('#sec_table_show').show();
+			 if(section_check=='1')
+			 {
+				$('#section_show').show();
+			 }
+			 else
+			 {
+				$('#section_show').hide(); 
+			 }
+			 if(table_check=='1')
+			 {
+				$('#table_show').show();
+			 }
+			  else
+			  {
+				  $('#table_show').hide(); 
+			  }
+		 }
+		 else
+		 {
+			$('#sec_table_show').hide(); 
+		 }
+		 totalcart();
+	}); 
 	 $(".divert").click(function(e){
 		 $('#transfer_name_label').hide();
 		$('.merchant_select').css("background-color", "#51D2B7");
 		$('.merchant_select').css("color", "#555");
-		$(this).css("background-color", "grey");
+		$(this).css("background-color", "red");
 		$(this).css("color", "white");
-		  // cancel delivery charges    
-		  // $('#delivery_charges').val(0);
-		  // $('#order_extra_charge').val(0);
 		  $('#delivery_label').hide();
 		  $('#pickup_type').val('divein');
 		  $('.name_mer').hide();
+		   $("#takeaway_select"). prop("checked",false);
+			$("#divein"). prop("checked",true);
+			$('#sec_table_show').show();
+			$('#section_show').show();
+			$('#table_show').show();
+			totalcart();
 	  });
-	
 	 var custom_msg="<?php echo $custom_msg; ?>";
 	 var same_order="<?php echo $same_order; ?>";
 	 var free_trial="<?php echo $free_trial; ?>";
@@ -4093,11 +4178,7 @@ $(document).ready(function(){
    var already_login='<?php echo $login_user_id; ?>';
    var p_status='<?php echo $p_status; ?>';
 	// var delivery_charges="<?php echo $merchant_detail['order_extra_charge']; ?>";
-	var pickup_type=$('#pickup_type').val();
-	
 	var delivery_charges=$('#delivery_charges').val();
-	if(pickup_type=="divein")
-		var delivery_charges=0;
 	// alert(delivery_charge);  
 	 var free_delivery="<?php echo $merchant_detail['free_delivery']; ?>";
   var location_order='<?php echo $location_order; ?>';
@@ -4677,9 +4758,6 @@ if(p_status=="paypalcancel")
 				   total_amount += parseFloat($(this).val());
 			   });
 			    var delivery_charges=$('#delivery_charges').val();  
-			    var pickup_type=$('#pickup_type').val();  
-				if(pickup_type=="divein")
-				var delivery_charges=0;
 				// alert('Deliver charge '+delivery_charges);
 			   if(delivery_charges>0)
 				   var order_min_charge="<?php echo $merchant_detail['order_min_charge'];?>";
@@ -4858,7 +4936,7 @@ if(p_status=="paypalcancel")
 					var user_id=$("#login_user_id").val();
 					var order_id=$("#order_id").val();
 					
-					var login_password=$("#login_password").val();  
+					var login_password=$("#register_password").val();  
 					var pass_length=login_password.length;  
 					if((pass_length==0) || (pass_length>5))
 					{    
@@ -4982,10 +5060,7 @@ if(p_status=="paypalcancel")
 				   // var total_rebate+= $(this).val();
 				   total_amount += parseFloat($(this).val());
 			   });
-			    var delivery_charges=$('#delivery_charges').val(); 
-				var pickup_type=$('#pickup_type').val();  
-				if(pickup_type=="divein")
-				var delivery_charges=0;				
+			    var delivery_charges=$('#delivery_charges').val();  
 				// alert('Deliver charge '+delivery_charges);
 				if(delivery_charges>0)
 				   var order_min_charge="<?php echo $merchant_detail['order_min_charge'];?>";
@@ -5098,11 +5173,11 @@ if(p_status=="paypalcancel")
 				   // var total_rebate+= $(this).val();
 				   total_amount += parseFloat($(this).val());
 			   });
-			    var delivery_charges=$('#delivery_charges').val(); 
+			    var delivery_charges=$('#delivery_charges').val();  
+				// alert('Deliver charge '+delivery_charges);
 				var pickup_type=$('#pickup_type').val();
 				if(pickup_type=="divein")
 				var delivery_charges=0;
-				// alert('Deliver charge '+delivery_charges);
 			   if(delivery_charges>0)
 				   var order_min_charge="<?php echo $merchant_detail['order_min_charge'];?>";
 					else
@@ -5293,6 +5368,7 @@ if(p_status=="paypalcancel")
 		totalcart();
 	 });
 	  $(".wallet_select").click(function(){
+		  totalcart()
 		    var special_coin_name='<?php  echo $special_coin_name;?>';
 			if(special_coin_name)
 			{
@@ -5339,10 +5415,15 @@ if(p_status=="paypalcancel")
 					p_bal=w_bal;	
 				   var p_bal=parseFloat(p_bal);
 					var total_amount=$('#total_cart_amount').val();
-					var delivery_charges=$('#delivery_charges').val();
+					var delivery_charges=$('#delivery_charges').val();  
 					var pickup_type=$('#pickup_type').val();
 					if(pickup_type=="divein")
 					var delivery_charges=0;
+					var sst_tax="<?php echo $merchant_detail['sst_rate']?>";
+					if(parseFloat(sst_tax)>0)
+					{
+						var sst_amount=calculatepercentage(total_amount,sst_tax);
+					}
 					if(parseFloat(delivery_charges)>0)
 						var total_amount=parseFloat(total_amount)+parseFloat(delivery_charges);
 					var membership_discount_input=$('#membership_discount_input').val(); 
@@ -5383,6 +5464,14 @@ if(p_status=="paypalcancel")
 					 // alert(total_amount);
 
 					 // alert(w_bal);
+					 
+					 if(parseFloat(sst_tax)>0)
+						{
+							// var sst_amount=calculatepercentage(total_amount,sst_tax);
+							$('.sst_amount_label').show(); 
+							$('.sst_amount_value').html(parseFloat(sst_amount).toFixed(2));  		
+							var total_amount=(parseFloat(total_amount)+parseFloat(sst_amount));
+						}    
 					if((parseFloat(total_amount)>parseFloat(w_bal)))
 					{
 						$('#LesaaAmountModel').modal('show');
@@ -5437,9 +5526,11 @@ if(p_status=="paypalcancel")
 				}
 			totalcart();
 	  });
-	 
+	
 	  $(".cash_pay").click(function(){
 		  $(this).removeClass(" btn-primary").addClass("btn-default");
+		  $('#payable_amount').val(0);
+		  $('#selected_wallet').val('');
 		   $("#order_place").submit();
 	  });
 	  $(".merchant_close").click(function(){
@@ -5469,10 +5560,15 @@ if(p_status=="paypalcancel")
 			selected_wallet_bal=max_bal;
 		var rem=0;
 		selected_wallet_bal = (parseInt(selected_wallet_bal * 10)/10).toFixed(2);
-		var delivery_charges=$('#delivery_charges').val(); 
+		var delivery_charges=$('#delivery_charges').val();  
 		var pickup_type=$('#pickup_type').val();
 		if(pickup_type=="divein")
 		var delivery_charges=0;
+		var sst_tax="<?php echo $merchant_detail['sst_rate']?>";
+		if(parseFloat(sst_tax)>0)
+		{
+			var sst_amount=calculatepercentage(total_amount,sst_tax);
+		}
 		if(parseFloat(delivery_charges)>0)
 		{
 			var total_amount=parseFloat(delivery_charges)+parseFloat(total_amount);
@@ -5505,6 +5601,14 @@ if(p_status=="paypalcancel")
 							var total_amount=parseFloat(total_amount)-parseFloat(membership_discount);
 						}
 					}
+		
+		if(parseFloat(sst_tax)>0)
+		{
+			// var sst_amount=calculatepercentage(total_amount,sst_tax);
+			$('.sst_amount_label').show(); 
+			$('.sst_amount_value').html(parseFloat(sst_amount).toFixed(2));  		
+			var total_amount=(parseFloat(total_amount)+parseFloat(sst_amount));
+		}	 
 		if(parseFloat(selected_wallet_bal)<parseFloat(total_amount))
 		{ 
 			var rem=parseFloat(total_amount)-parseFloat(selected_wallet_bal);
@@ -5614,7 +5718,7 @@ if(p_status=="paypalcancel")
   }
 }
 function myFunction2() {
-  var x = document.getElementById("login_password");
+  var x = document.getElementById("register_password");
   if (x.type === "password") {
     x.type = "text";
 	    $("#eye_pass_2").html('Hide Password');
@@ -5769,7 +5873,7 @@ function calculatedisatace(to_lat,to_long)
 				else
 				{
 					$('#delivery_label').hide();
-				}  
+				}
 				
 				
                $('.pro_status').show();
@@ -5881,15 +5985,20 @@ function calculatepercentage(listPrice, discount)
   return (( listPrice * discount / 100 )).toFixed(2); // Sale price
 }
 function totalcart()
-{
-	 var totalsale = 0;
+{ 
+    var sst_tax="<?php echo $merchant_detail['sst_rate']?>";
+	var totalsale = 0;
     $(".p_total").each(function(){
         totalsale += +$(this).val();
     });
 	var delivery_charges=$('#delivery_charges').val();
+	var pickup_type=$('#pickup_type').val();
+	if(pickup_type=="divein")
+	var delivery_charges=0;
 	var coupon_discount_amount=$('#coupon_discount_amount').val();
 	var coupon_discount=0;
 	var final_charge=parseFloat(totalsale)+parseFloat(delivery_charges);  
+	
 	if(coupon_discount_amount>0)
 	{
 	  	var coupon_min_value=$('#coupon_min_value').val();
@@ -5981,7 +6090,14 @@ function totalcart()
 	}
 	if(final_charge<0)
 		var final_charge=0;
-	
+	if(parseFloat(sst_tax)>0)
+	{
+		var sst_amount=calculatepercentage(totalsale,sst_tax);
+		$('.sst_amount_label').show(); 
+		$('.sst_amount_value').html(parseFloat(sst_amount).toFixed(2));  		
+		var final_charge=(parseFloat(final_charge)+parseFloat(sst_amount));
+	}  
+	$('.final_amount_label').show();  
 	$('#final_cart_amount_label').html(final_charge); 
 	$('.final_amount_value').html(parseFloat(final_charge).toFixed(2));   	
     $('#total_cart_amount_label_show').show();	
@@ -6010,7 +6126,7 @@ function UpdateTotalCart(id=0){
   var total =  parseFloat(Number(qty*unitprize).toFixed(2));
   $("#"+id+"_cat_total").val(total);
   
-  
+  totalcart();
 }
 // console.log("dsfgsdf", $('.section-dropdown'));
 $('.section-dropdown').on('change', function(e) {

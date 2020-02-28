@@ -211,12 +211,11 @@ if(isset($_POST))
 		$arrival_time =$_POST['arrival_time'];
 		$no_person =$_POST['no_person'];
 		$remark_extra =$_POST['remark_extra'];
-		$pickup_type =$_POST['pickup_type'];
-		
 		$order_extra_charge =$_POST['order_extra_charge'];
 		if($pickup_type=="divein")
 		{
 			$order_extra_charge=0;
+			$location='';
 		} 
 		if($w_type=='')
 		{
@@ -444,7 +443,7 @@ if(isset($_POST))
 			else
 			{
 				$rebate_applicable="n";
-			}  
+			}
 			if($login_for_wallet_id=='')
 				$membership_applicable="n";
 			 	  $sqlFinalIns = "INSERT INTO order_list SET rebate_applicable='$rebate_applicable',membership_discount_input='$membership_discount_input',membership_applicable='$membership_applicable',order_extra_charge='$order_extra_charge',remark_extra='$remark_extra',rebate_amount='$rebate_amount',prepaid='$prepaid',membership_discount='".$discount."',coupon_id='$coupon_id',coupon_discount='".$coupon_discount."',coupon_code='".$coupon_code."',membership_plan_id='$membership_plan_id',total_cart_amount='$total_cart_amount',total_rebate_amount='$total_rebate_amount',wallet_paid_amount='$wallet_paid_amount',online_pay='$online_pay',payment_alert='$payment_alert',user_name='$user_name',user_mobile='$user_mobile',wallet='$w_type',varient_type='$v_str',product_id='$pro_id',  user_id='$user_id', merchant_id='$m_id', quantity='$qty_list', amount='$p_price',product_code='$p_code', remark='$option', location='".$location."', table_type='".$table_type."',section_type='$section_type',created_on='$date', invoice_no='$invoice_no',newuser='$newuser',show_alert='$show_alert',section_saved='$section_saved',agent_code='$agent_code'";

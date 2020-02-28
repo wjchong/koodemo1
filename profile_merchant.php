@@ -1,5 +1,7 @@
 <?php 
 include("config.php");
+$profile_tab="y";
+$me="profile_merchant";
 if(!isset($_SESSION['login']))
 {
 	header("location:login.php");
@@ -432,6 +434,7 @@ if(isset($_POST['submit_pass']))
 }   
 /*user password*/
 /*fund password*/
+
 if(isset($_POST['submit_fundpass']))
 {
 	$old_fundpassword = addslashes($_POST['old_fundpassword']);
@@ -523,7 +526,7 @@ if(isset($_POST['submit_fundpass']))
 		resize: none;
 	}
 	</style>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4BfDrt-mCQCC1pzrGUAjW_2PRrGNKh_U&libraries=places" async defer></script> 
+	
 </head>
 <body class="header-light sidebar-dark sidebar-expand pace-done">
     <div class="pace  pace-inactive">
@@ -639,6 +642,7 @@ if(isset($_POST['submit_fundpass']))
 	                                           		}
 	                                           	 	echo'<option value="'.$data['id'].'" '.$selected.'>'.$data['short_name'].'</option>';
 	                                           	}
+
 											?>
                                         </select>
                                     </div>
@@ -1256,6 +1260,7 @@ if(isset($_POST['submit_fundpass']))
     <!-- /.widget-bg -->
     <!-- /.content-wrapper -->
     <?php include("includes1/footer.php"); ?>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4BfDrt-mCQCC1pzrGUAjW_2PRrGNKh_U&libraries=places" async defer></script> 
 </body>
 </html>
 <style>
@@ -1526,4 +1531,4 @@ div#multiSelectCombo {
 			
 			
         });
-    </script>
+    </script>  

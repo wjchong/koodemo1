@@ -1,5 +1,7 @@
 <?php  
 include("config.php"); 
+$merchant_tab="y";
+$me="order_list";
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
@@ -32,7 +34,7 @@ if(!isset($_SESSION['login']) || empty($_SESSION['login'])){
         // header("location:logout.php");
     // }
 // }
-/* code for limit  */
+/* code for limit  */  
 
 // print_R($profile_data);
 // die;
@@ -982,8 +984,8 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 							<?php $incsst = ($sstper / 100) * $total;
 							    $incsst=@number_format($incsst, 2);
 								$incsst=ceiling($incsst,0.05);
-								 $incsst=@number_format($incsst, 2);
-							    $g_total=@number_format($total+$incsst, 2);
+								  $incsst=@number_format($incsst, 2);
+							     $g_total=@number_format($total+$incsst, 2);
 							 ?>
 							  <td><?php echo $incsst; ?></td>
 							  <td><?php  echo $g_total;?></td>
@@ -1022,7 +1024,8 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 							 if($row['varient_type'])
 							 {
 						$v_str=$row['varient_type'];
-							$v_array=explode(",",$v_str);
+							$v_array=explode("|",$v_str);   
+							// $v_array=explode(",",$v_str);
 							  
 							foreach($v_array as $vr)
 							{
@@ -1036,6 +1039,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 									$sub_rows = mysqli_query($conn, "SELECT * FROM sub_products WHERE id  in ($v_match)");
 									while ($srow=mysqli_fetch_assoc($sub_rows)){
 										echo $srow['name'];
+										// echo "</br>";
 										// echo "&nbsp;&nbsp;";
 									}
 								}
